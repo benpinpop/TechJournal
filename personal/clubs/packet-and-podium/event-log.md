@@ -15,4 +15,7 @@
 
 1. WarGames (1983) or Blackhat (2015)
 
-## Tuesday, February 3, 2026 (Tentative)
+## Monday, February 2, 2026 (Tentative)
+
+* AWS Skill Builder - Card Clash
+*
