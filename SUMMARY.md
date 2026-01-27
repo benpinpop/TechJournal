@@ -49,6 +49,7 @@
 * [Assignments](sec-250/assignments/README.md)
   * [Week 1: CIA Triad](sec-250/assignments/week-1-cia-triad.md)
   * [KC7 Cyber Detective](sec-250/assignments/kc7-cyber-detective.md)
+  * [CyberMission Activity](sec-250/assignments/cybermission-activity.md)
 * [Glossary](sec-250/glossary.md)
 * [Lectures](sec-250/lectures/README.md)
   * [Module 1](sec-250/lectures/mod-1-lecture-preview.md)
