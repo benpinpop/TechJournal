@@ -1,4 +1,4 @@
-# Mod 2 Lecture
+# Module 2
 
 **Secreet Word**
 

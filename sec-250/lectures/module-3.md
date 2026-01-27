@@ -50,3 +50,15 @@
     * Scales very well
   * ABAC - Attribute-Based Access Control
     * Who you are, where you are, etc
+* Network Access List
+  * Network filter, not as sophisticated as a firewall
+  * Simple as permitting or denying hosts inside a network
+* AAA - Authentication, Authorization, Accounting
+  * Authentication: Verifying users by their profile
+  * Authorization: Process of enforcing policies and access
+  * Accounting: Measures resources users consume
+* IDAM - Identity and Access Management
+  * Single ID across organizations
+    * Examples: AD, SSO, OAuth
+  * Reduces overused passwords
+  * Managed centrally

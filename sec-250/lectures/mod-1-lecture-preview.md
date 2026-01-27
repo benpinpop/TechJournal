@@ -1,4 +1,4 @@
-# Mod 1 Lecture Preview
+# Module 1
 
 * Syllabus and Class Review
   * Take-home final
