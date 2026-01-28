@@ -87,6 +87,7 @@
   * [Packet and Podium](personal/clubs/packet-and-podium/README.md)
     * [Topic Sheet](personal/clubs/packet-and-podium/topic-sheet.md)
     * [Event Log](personal/clubs/packet-and-podium/event-log.md)
+    * [Telnet Activity](personal/clubs/packet-and-podium/telnet-activity.md)
 * [Reference/Essentials](personal/reference-essentials/README.md)
   * [Linux](personal/reference-essentials/linux/README.md)
     * [Master Linux Terminal Sheet](personal/reference-essentials/linux/master-linux-terminal-sheet.md)
