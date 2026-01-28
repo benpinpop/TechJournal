@@ -88,6 +88,8 @@
     * [Topic Sheet](personal/clubs/packet-and-podium/topic-sheet.md)
     * [Event Log](personal/clubs/packet-and-podium/event-log.md)
     * [Telnet Activity](personal/clubs/packet-and-podium/telnet-activity.md)
+  * [Digital Forensics Association](personal/clubs/digital-forensics-association/README.md)
+    * [Windows Logs Night](personal/clubs/digital-forensics-association/windows-logs-night.md)
 * [Reference/Essentials](personal/reference-essentials/README.md)
   * [Linux](personal/reference-essentials/linux/README.md)
     * [Master Linux Terminal Sheet](personal/reference-essentials/linux/master-linux-terminal-sheet.md)
