@@ -74,6 +74,7 @@
 * [NCAE](competition/ncae/README.md)
   * [Capture The Flag](competition/ncae/capture-the-flag.md)
   * [Packet Man Ping](competition/ncae/packet-man-ping.md)
+  * [Apache CA Install](competition/ncae/apache-ca-install.md)
 * [NCL](competition/ncl/README.md)
   * [OSINT](competition/ncl/osint.md)
   * [Cryptography](competition/ncl/cryptography.md)
