@@ -37,3 +37,14 @@
       * SSLCertificateKeyFile `PATH/TO/privatekey.priv`
       * Restart Apache
         * systemctl restart apache2
+
+
+
+Extracting public key from private key:
+
+```bash
+openssl rsa -in mykey.pem -pubout > mykey.pub
+```
+
+
+
