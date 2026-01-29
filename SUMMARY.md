@@ -45,7 +45,8 @@
 
 ## SEC-250
 
-* [Labs](sec-250/labs.md)
+* [Labs](sec-250/labs/README.md)
+  * [Operation Shadow](sec-250/labs/operation-shadow.md)
 * [Assignments](sec-250/assignments/README.md)
   * [Week 1: CIA Triad](sec-250/assignments/week-1-cia-triad.md)
   * [KC7 Cyber Detective](sec-250/assignments/kc7-cyber-detective.md)

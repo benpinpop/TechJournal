@@ -125,16 +125,15 @@ systemctl stop <service>
 
 #### Logs
 
-```bash
-# Security logs
-/var/log/secure
+<pre class="language-bash"><code class="lang-bash"><strong># Security logs
+</strong>/var/log/secure
 
 # View logs with journalctl
 journalctl
 
 # Search for failed logins
 journalctl | grep "Failed"
-```
+</code></pre>
 
 #### Process Tools
 
@@ -212,10 +211,20 @@ Other options: `hosts.deny`, `hosts.allow`, or `/etc/hosts` (Rocky Linux).
 
 <pre class="language-bash"><code class="lang-bash">passwd [USERNAME] # Changes the password, must be sudo to change other accounts
 whoami # Lists the current username
-hostname [NEW_HOSTNAME] # Show or set system hostname
-useradd - Creates a new user account # Requires sudo
+
+useradd ## Creates a new user account # Requires sudo
+adduser # Higher level of user add
+
 <strong>usermod - Modifies a user 
-</strong></code></pre>
+</strong>usermod -aG &#x3C;group> &#x3C;username>
+</code></pre>
+
+### Hostname Administration
+
+```bash
+hostname [NEW_HOSTNAME] # Show or set system hostname
+hostnamectl set-hostname [NEW_HOSTNAME] # Require sudo
+```
 
 #### Useradd common options
 
@@ -240,13 +249,12 @@ useradd - Creates a new user account # Requires sudo
 
 ### Crontab
 
-```bash
-# Edit crontab for user
-crontab -e
+<pre class="language-bash"><code class="lang-bash"><strong># Edit crontab for user
+</strong>crontab -e
 
 # Exit editor
 :wq
-```
+</code></pre>
 
 **Format:**
 
