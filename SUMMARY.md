@@ -38,7 +38,7 @@
   * [Lab 2-2: Observing LAN Activity](net-150/labs/lab-2-2-observing-lan-activity.md)
   * [Lab 3-1: ARP Observation](net-150/labs/lab-3-1-arp-observation.md)
   * [Lab 3-2: Exploring Broadcast Domains](net-150/labs/lab-3-2-exploring-broadcast-domains.md)
-  * [Lab 4-2](net-150/labs/lab-4-2.md)
+  * [Lab 4-2: Classful Subnetting](net-150/labs/lab-4-2-classful-subnetting.md)
 * [Assignments](net-150/assignments/README.md)
   * [Class Activity 4.1](net-150/assignments/class-activity-4.1.md)
 * [Glossary](net-150/glossary.md)
