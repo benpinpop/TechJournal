@@ -96,6 +96,7 @@
 * [Hack The Box](personal/hack-the-box/README.md)
   * [Starter Boxes](personal/hack-the-box/starter-boxes/README.md)
     * [Fawn](personal/hack-the-box/starter-boxes/fawn.md)
+    * [Dancing](personal/hack-the-box/starter-boxes/dancing.md)
 * [Reference/Essentials](personal/reference-essentials/README.md)
   * [Linux](personal/reference-essentials/linux/README.md)
     * [Master Linux Terminal Sheet](personal/reference-essentials/linux/master-linux-terminal-sheet.md)
