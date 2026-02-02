@@ -17,5 +17,6 @@
 
 ## Monday, February 2, 2026 (Tentative)
 
-* AWS Skill Builder - Card Clash
-*
+* AWS Skill Builder - Card Clash?
+* [https://www.youtube.com/watch?v=mBCQTqgwJxw\&pp=ygUIc2V5dG9uaWM%3D](https://www.youtube.com/watch?v=mBCQTqgwJxw\&pp=ygUIc2V5dG9uaWM%3D)
+* [https://app.hackthebox.com/machines/TwoMillion?tab=machine\_info](https://app.hackthebox.com/machines/TwoMillion?tab=machine_info)
