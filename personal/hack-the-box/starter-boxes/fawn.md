@@ -65,12 +65,58 @@ Moving on from port scanning, this question asks us about the basics of how to u
 
 ### What is username that is used over FTP when you want to log in without having an account?
 
+You can use the name "anonymous" to log in.
+
 ### What is the response code we get for the FTP message 'Login successful'?
+
+We received a 230 response code.
+
+```
+┌──(benpo㉿BenPolonsky)-[~]
+└─$ ftp IPADDRESS
+Connected to IPADDRESS.
+220 (vsFTPd 3.0.3)
+Name (IPADDRESS:benpo): anonymous
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+```
 
 ### There are a couple of commands we can use to list the files and directories available on the FTP server. One is dir. What is the other that is a common way to list files on a Linux system.
 
-### What is the command used to download the file we found on the FTP server?  <br>
+The other common command used in Linux systems to list directories is the **ls** command, which stands for list. On this server, running the command returns the following result.
 
-\
-\
-<br>
+```
+ftp> ls
+229 Entering Extended Passive Mode (|||60658|)
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0              32 Jun 04  2021 flag.txt
+226 Directory send OK.
+```
+
+We now have a flag.txt file, which is used to solve our box. We need to retrieve this flag onto our system.
+
+### What is the command used to download the file we found on the FTP server?
+
+To download the file, we can use the `get` command. The prefix for this command typically follows: `get <remote_file> <local_file>`. Now that we know what our flag is, we can copy it using this format.
+
+```
+ftp> get flag.txt flag.txt
+local: flagnew.txt remote: flag.txt
+229 Entering Extended Passive Mode (|||23753|)
+150 Opening BINARY mode data connection for flag.txt (32 bytes).
+100% |***************************************************************************|    32       84.68 KiB/s    00:00 ETA
+226 Transfer complete.
+32 bytes received in 00:00 (1.15 KiB/s)
+```
+
+Once we've copied the file, we need to exit the FTP server and read the flag on our machine. We use the `exit` command to leave the FTP server.
+
+```
+ftp> exit
+```
+
+Now we can `cat` our flag.txt, and finish the box!
+
+
