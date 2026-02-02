@@ -4,10 +4,9 @@
 
 * **Key generation**
   * Create Private Key
-    * ```bash
-      sudo mkdir /etc/ssl/mycerts
-      sudo openssl genrasa -out /etc/ssl/mycerts/privatekey.priv 2048
-      ```
+    * <pre class="language-bash"><code class="lang-bash"><strong>sudo mkdir /etc/ssl/mycerts
+      </strong>sudo 
+      </code></pre>
   * Generate/fetch .pem file under ssl/mycerts
     * ```bash
       cat /etc/ssl/mycerts/privatekey.priv
@@ -40,11 +39,63 @@
 
 
 
+Process:
+
+```sql
+Apache Server
+   |
+   |--(1) Generate private key: openssl genrasa -out /etc/ssl/mycerts/privatekey.priv 2048
+   |--(2) Generate CSR (Certificate Signing Request): openssl req -new -key privatekey.priv -out ncaeserver.csr
+   |
+CA Server
+   |
+   |--(3) Review CSR
+   |--(4) Sign CSR
+   |--(5) Issue certificate
+   |
+Apache Server
+   |
+   |--(6) Install cert + key: mkdir /usr/local/share/ca-certificates/extra
+   |-- cp certificate.pem /usr/local/share/ca-certificates/extra/ncaeChamplainApache.crt
+   |-- sudo update-ca-certificates
+   |--(7) Configure Apache SSL:
+   |-- sudo a2enmod ssl
+   |-- nano /etc/apache2/sites-available/default-ssl.conf
+   
+   SSLCertificateFile etc/ssl/mycerts/localhostCertificate.pem  
+   SSLCertificateKeyFile PATH/TO/privatekey.priv
+
+```
+
+
+
 Extracting public key from private key:
 
 ```bash
 openssl rsa -in mykey.pem -pubout > mykey.pub
 ```
 
+Creating a certificate signing request:
 
+```
+# Generate a private key
+openssl genrsa -out server.key 2048
+
+# Generate a CSR
+openssl req -new -key server.key -out server.csr
+```
+
+Example code block:
+
+```
+<VirtualHost *:443>
+    ServerName champlain.ncae.com
+    
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/certs/server.crt
+    SSLCertificateKeyFile /etc/ssl/private/server.key
+    SSLCertificateChainFile /etc/ssl/certs/ca-chain.crt  # If provided
+    
+</VirtualHost>
+```
 
