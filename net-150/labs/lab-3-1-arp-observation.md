@@ -20,7 +20,7 @@ Any problems you ran into during the lab, and what troubleshooting steps you too
    * **Deliverable 1: Find the ARP broadcast that your computer used to find the gateway's MAC address. Provide a screenshot that shows the source and destination MAC address of this broadcast.**
      *
 
-         <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+         <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
      * In this screenshot, you can see the ARP requests made to the gateway from the Kali Machine. If you look at the bottom left, you can identify the sender MAC address, bc:24:11:e3:b3:cd, and the target MAC address, 00:00:00\_00:00:00. The target MAC address is empty because the device does not know the MAC address and is trying to identify it via ARP.&#x20;
    * **Deliverable 2: Find the ARP reply from the gateway back to your computer. Provide a screenshot that shows the ARP reply packet indicating the MAC address for your gateway.**
      *
