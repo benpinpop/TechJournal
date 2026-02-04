@@ -104,6 +104,7 @@
   * [Linux](personal/reference-essentials/linux/README.md)
     * [Master Linux Terminal Sheet](personal/reference-essentials/linux/master-linux-terminal-sheet.md)
     * [Bash Bandit](personal/reference-essentials/linux/bash-bandit.md)
+    * [Wazuh Installation Steps](personal/reference-essentials/linux/wazuh-installation-steps.md)
   * [Programming](personal/reference-essentials/programming/README.md)
     * [HTML](personal/reference-essentials/programming/html.md)
     * [Bash Basics](personal/reference-essentials/programming/bash-basics.md)
