@@ -88,19 +88,19 @@ We also get alert(2) on mouse over.&#x20;
 
 ### Reflection
 
-### Look at the [OWASP Top 10](https://owasp.org/Top10/2025/) site; what categories would the vulnerabilities you found fit into, if any?
+#### Look at the [OWASP Top 10](https://owasp.org/Top10/2025/) site; what categories would the vulnerabilities you found fit into, if any?
 
 This would fall under A05 Injection and Insecure Design. We shouldn’t be trusting the users with their own HTML tags; that’s just asking for an XSS vulnerability.
 
-### What kind of impact could this vulnerability have?
+#### What kind of impact could this vulnerability have?
 
 Again, same as before in all of these challenges. When you have an XSS attack, the JavaScript has access to pretty much everything on the browser, including cookies.
 
-### How would you fix this vulnerability?
+#### How would you fix this vulnerability?
 
 Sanitize input and restrict the usage of HTML events through regex. <br>
 
-## Challenge 5 (Stored XSS via Ajax)![](<../../.gitbook/assets/unknown (9).png>)
+## Challenge 5 (Stored XSS via AJAX)![](<../../.gitbook/assets/unknown (9).png>)
 
 First, submit a snippet with the following code: all `<span style=display:none>"+ (alert(1),"")+ "</span>your base`
 
@@ -231,7 +231,7 @@ After the site refreshes, a snippet has been deleted by the first snippet of ind
 
 #### How would you fix this vulnerability?
 
-## Challenge 10
+## Challenge 10 (XSSI)
 
 ### Reflection
 
