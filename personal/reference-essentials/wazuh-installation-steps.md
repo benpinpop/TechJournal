@@ -35,6 +35,14 @@ sed -i "s/^deb /#deb /" /etc/apt/sources.list.d/wazuh.list
 apt update
 ```
 
+If installing wazuh-agent fails on the devices, use:
 
+```sh
+sed -i 's/MANAGER_IP/your_manager_ip_address_here/g' /var/ossec/etc/ossec.conf
+```
+
+Then restart.
+
+If the install works, but it's not showing up, then you'll need to go into /var/bin/ossec/manage\_agents on your node/manager and add an agent, extract its key, and then SSH into the box with the agent, go into the same bin file, and add it using the key.
 
 See: [https://documentation.wazuh.com/current/installation-guide/index.html](https://documentation.wazuh.com/current/installation-guide/index.html)
