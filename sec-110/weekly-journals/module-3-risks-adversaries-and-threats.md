@@ -91,14 +91,14 @@ Bullet points for notes that aren’t definitions, but explain how things work o
 
 Include images from the slides or from the internet that are useful and/or good references.
 
-![](<../../.gitbook/assets/unknown (14).png>)
+![](<../../.gitbook/assets/unknown (14) (1).png>)
 
-![](<../../.gitbook/assets/unknown (15).png>)
+![](<../../.gitbook/assets/unknown (15) (1).png>)
 
 \
 <br>
 
-![](<../../.gitbook/assets/unknown (16).png>) (hehe)
+![](<../../.gitbook/assets/unknown (16) (1).png>) (hehe)
 
 ### Reflection & Questions
 

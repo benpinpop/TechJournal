@@ -75,13 +75,13 @@ Lecture Slides: [Presentation](https://docs.google.com/presentation/d/1YITdV_2j2
 
 ![](<../../.gitbook/assets/unknown (2).jpeg>)
 
-![](<../../.gitbook/assets/unknown (1) (1).png>)
+![](<../../.gitbook/assets/unknown (1) (1) (1).png>)
 
-![](<../../.gitbook/assets/unknown (2).png>)
+![](<../../.gitbook/assets/unknown (2) (1).png>)
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/unknown (4).png>)
+![](<../../.gitbook/assets/unknown (4) (1).png>)
 
 ### Commands, Tools, or Techniques
 

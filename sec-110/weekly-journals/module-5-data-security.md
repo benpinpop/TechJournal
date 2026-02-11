@@ -60,13 +60,13 @@ Bullet points for notes that aren’t definitions, but explain how things work o
 
 ### Diagrams and Visuals
 
-![](<../../.gitbook/assets/unknown (21).png>)
+![](<../../.gitbook/assets/unknown (21) (1).png>)
 
-![](<../../.gitbook/assets/unknown (22).png>)
+![](<../../.gitbook/assets/unknown (22) (1).png>)
 
-![](<../../.gitbook/assets/unknown (23).png>)
+![](<../../.gitbook/assets/unknown (23) (1).png>)
 
-![](<../../.gitbook/assets/unknown (24).png>)
+![](<../../.gitbook/assets/unknown (24) (1).png>)
 
 ### Commands, Tools, or Techniques
 

@@ -50,6 +50,7 @@
 
 * [Labs](sec-250/labs/README.md)
   * [Operation Shadow Breach](sec-250/labs/operation-shadow-breach.md)
+  * [Google Gruyere Lab](sec-250/labs/google-gruyere-lab.md)
 * [Assignments](sec-250/assignments/README.md)
   * [Week 1: CIA Triad](sec-250/assignments/week-1-cia-triad.md)
   * [KC7 Cyber Detective](sec-250/assignments/kc7-cyber-detective.md)

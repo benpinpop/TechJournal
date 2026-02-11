@@ -71,11 +71,11 @@ Bullet points for notes that aren’t definitions, but explain how things work o
 
 Include images from the slides or from the internet that are useful and/or good references.
 
-![](<../../.gitbook/assets/unknown (17).png>)
+![](<../../.gitbook/assets/unknown (17) (1).png>)
 
-![](<../../.gitbook/assets/unknown (18).png>)![](<../../.gitbook/assets/unknown (19).png>)
+![](<../../.gitbook/assets/unknown (18) (1).png>)![](<../../.gitbook/assets/unknown (19) (1).png>)
 
-![](<../../.gitbook/assets/unknown (20).png>)
+![](<../../.gitbook/assets/unknown (20) (1).png>)
 
 ### Commands, Tools, or Techniques
 

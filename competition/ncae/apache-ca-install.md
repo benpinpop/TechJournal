@@ -28,7 +28,7 @@
   *   Update the security configuration file
 
       * nano /etc/apache2/sites-available/default-ssl.conf
-      * ![](../../.gitbook/assets/unknown.png)
+      * ![](<../../.gitbook/assets/unknown (24).png>)
 
 
 

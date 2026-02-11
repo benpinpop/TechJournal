@@ -88,7 +88,7 @@ Lecture Slides: [Presentation](https://docs.google.com/presentation/d/1F1CbZoUL2
 
 ### Diagrams and Visuals
 
-![](<../../.gitbook/assets/unknown (1).png>)
+![](<../../.gitbook/assets/unknown (1) (1).png>)
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 

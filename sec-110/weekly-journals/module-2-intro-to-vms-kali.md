@@ -54,9 +54,9 @@ Bullet points for notes that aren’t definitions, but explain how things work o
 
 Include images from the slides or from the internet that are useful and/or good references.
 
-![](<../../.gitbook/assets/unknown (12).png>)
+![](<../../.gitbook/assets/unknown (12) (1).png>)
 
-![](<../../.gitbook/assets/unknown (13).png>)
+![](<../../.gitbook/assets/unknown (13) (1).png>)
 
 \
 \
