@@ -99,6 +99,7 @@
   * [Digital Forensics Association](personal/clubs/digital-forensics-association/README.md)
     * [Windows Logs Night](personal/clubs/digital-forensics-association/windows-logs-night.md)
 * [Hack The Box](personal/hack-the-box/README.md)
+  * [Facts](personal/hack-the-box/facts.md)
   * [Starter Boxes](personal/hack-the-box/starter-boxes/README.md)
     * [Fawn](personal/hack-the-box/starter-boxes/fawn.md)
     * [Dancing](personal/hack-the-box/starter-boxes/dancing.md)
