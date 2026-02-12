@@ -233,12 +233,22 @@ After the site refreshes, a snippet has been deleted by the first snippet of ind
 
 ## Challenge 10 (XSSI)
 
+<figure><img src="../../.gitbook/assets/{6A6097B0-B571-49C9-93E8-9833A6B0694C}.png" alt=""><figcaption><p>This screenshot shows the script.html file to upload to Gruyere. This html file includes a script that extracts a private snippet from an individual.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/{E18F184C-3B75-4F61-B69D-F0AE3751A06F}.png" alt=""><figcaption><p>In this screenshot, we upload the file the Gruyere.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/{D6365F6A-9301-4C32-B1CB-131BCD864520}.png" alt=""><figcaption><p>This screenshot shows the user running the uploaded file, and the extracted snippet runs the alert command, displaying the private snippet. This screenshot demonstrates that the private snippet could be extracted and sent to a third party source (like a discord webhook). </p></figcaption></figure>
+
 ### Reflection
 
 #### Look at the [OWASP Top 10](https://owasp.org/Top10/2025/) site; what categories would the vulnerabilities you found fit into, if any?
 
+I would say that this falls into A05 Injection, and Insecure Design. An individual can inject whatever script they want to extract your own private snippet, which shouldn't be allowed.
+
 #### What kind of impact could this vulnerability have?
+
+This vulnerability could cause serious confidentiality issues, though if one of the scripts ends up resulting in a request that extracts cookie information or something else, then integrity could be compromised as well. I'm mainly concerned about data confidentiality though.
 
 #### How would you fix this vulnerability?
 
-<br>
+Disable scripts in uploaded HTML files via filtering and sanitization. Disable JSON responses from non POST requests, and enable an XSRF token to only return data to pages that are the users.&#x20;
