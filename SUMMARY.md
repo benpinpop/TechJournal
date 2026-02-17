@@ -77,6 +77,7 @@
   * [1/23/26: Evidence Acquisition](for-120/notes/1-23-26-evidence-acquisition.md)
   * [1/27/26: Write Blockers](for-120/notes/1-27-26-write-blockers.md)
   * [2/3/2026: Image Mounting](for-120/notes/2-3-2026-image-mounting.md)
+  * [Mid Term Studying](for-120/notes/mid-term-studying.md)
 
 ## Competition
 
