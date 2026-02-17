@@ -43,6 +43,7 @@
   * [Lab 6.1: VLSM](net-150/labs/lab-6.1-vlsm.md)
 * [Assignments](net-150/assignments/README.md)
   * [Class Activity 4.1](net-150/assignments/class-activity-4.1.md)
+  * [Midterm Mindmap](net-150/assignments/midterm-mindmap.md)
 * [Glossary](net-150/glossary.md)
 * [Class Notes](net-150/class-notes/README.md)
   * [Chapter 1: OSI Model](net-150/class-notes/chapter-1-osi-model.md)
