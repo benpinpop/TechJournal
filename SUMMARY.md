@@ -47,6 +47,7 @@
 * [Glossary](net-150/glossary.md)
 * [Class Notes](net-150/class-notes/README.md)
   * [Chapter 1: OSI Model](net-150/class-notes/chapter-1-osi-model.md)
+  * [IP Addresses and Subnetting](net-150/class-notes/ip-addresses-and-subnetting.md)
 
 ## SEC-250
 

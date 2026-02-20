@@ -50,6 +50,4 @@ This lab was definitely a little difficult. I really struggled with the RIP rout
 * Packet Tracer will yell at you when your subnet mask and IP address don't mix, and it is right most of the time
 * Without a default gateway, a device cannot receive a ping
 * Subnetting is easier than you think it is; it's just splitting up a network into logical pieces and then adding them on top of each other. Starting with bigger is better.&#x20;
-* You have to turn on your router interfaces for them to work!
-
-<br>
+* You have to turn on your router interfaces for them to work!<br>
