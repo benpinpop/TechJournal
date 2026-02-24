@@ -41,6 +41,7 @@
   * [Lab 4-2: Classful Subnetting](net-150/labs/lab-4-2-classful-subnetting.md)
   * [Lab 5-1: Routing Lab](net-150/labs/lab-5-1-routing-lab.md)
   * [Lab 6.1: VLSM](net-150/labs/lab-6.1-vlsm.md)
+  * [Lab 7-1 Introduction to Traceroute](net-150/labs/lab-7-1-introduction-to-traceroute.md)
 * [Assignments](net-150/assignments/README.md)
   * [Class Activity 4.1](net-150/assignments/class-activity-4.1.md)
   * [Midterm Mindmap](net-150/assignments/midterm-mindmap.md)
