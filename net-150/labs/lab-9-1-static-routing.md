@@ -9,10 +9,16 @@
 
 1. Select PC0 and answer the following: **Answer**
    * What is the PC's IP address and Default Gateway?
+     * IP address: 192.168.30.3
+     * DG: 192.168.30.1
    * Can you ping the Default Gateway?
+     * Yes.
    * Can you ping PC1?
+     * Yes.
    * Can you ping any other PC's (2-5)?
+     * No :(
 2. Why do you think the pings to other networks fail? **Answer**
+   1. Because there is no routing setup, therefore the Routers don't know where to send the destination packets.&#x20;
 
 **Create Static Routes**: "Routes" tell routers how to reach other networks.  They don't need to include a lot of information - just the network address, subnet mask, and which of it's interfaces to send out of.
 
@@ -35,13 +41,19 @@
      ```
 3. On R3, based on what you have configured for R1 and R2, what do you think the configuration should be for R3?
    * **Answer:** What are the ip route commands for R3?
-4. Configure R3 with proper routing commands
-5. Ping the different PC's, are they able to communicate? **Show screenshot of successful pings**
-6. Go to R1 and type "exit" to leave config mode.  The run the following command
+
+```
+ip route 192.168.20.0 255.255.255.0 10.10.10.1
+ip route 10.10.10.0 255.255.255.0 10.10.10.1 
+ip route 192.168.30.0 255.255.255.0 10.10.10.1
+```
+
+1. Ping the different PC's, are they able to communicate? **Show screenshot of successful pings**
+2. Go to R1 and type "exit" to leave config mode.  The run the following command
    * show ip route
    * **Answer:** Explain what the command output is showing
-7. Repeat Step 6 for R3 and **Answer** same question
-8. Imagine a larger internetnetwork with 25 different network segments (subnets). What would the challenge be with using "static routes"? **Answer**
+3. Repeat Step 6 for R3 and **Answer** same question
+4. Imagine a larger internetnetwork with 25 different network segments (subnets). What would the challenge be with using "static routes"? **Answer**
 
 **Submit Answers to questions and screenshots**
 
