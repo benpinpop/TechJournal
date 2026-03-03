@@ -49,15 +49,25 @@ ip route 192.168.30.0 255.255.255.0 10.10.10.1
 ```
 
 1. Ping the different PC's, are they able to communicate? **Show screenshot of successful pings**
+   1.
+
+       <figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption><p>Screenshot of successful pings</p></figcaption></figure>
 2. Go to R1 and type "exit" to leave config mode.  The run the following command
    * show ip route
    * **Answer:** Explain what the command output is showing
-3. Repeat Step 6 for R3 and **Answer** same question
+     *
+
+         <figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>Screenshot of <code>show ip route</code> on R1</p></figcaption></figure>
+
+
+     * The output shows all routing and connected interfaces for external networks. S stands for static routing, whereas C is connected interfaces.&#x20;
+       * 192.168.10.0/24 and 192.168.30.0/24 are statically routed through the 10.10 subnets, and everything is fully connected.
+3. Repeat this step for R3 and **Answer** same question
+   1.
+
+       <figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p>Screenshot of <code>show ip route</code> on R3</p></figcaption></figure>
+   2. R3s network is directly connected (192.168.10.0/24), and it is directly connected to the router via the Serial interface.&#x20;
 4. Imagine a larger internetnetwork with 25 different network segments (subnets). What would the challenge be with using "static routes"? **Answer**
-
-**Submit Answers to questions and screenshots**
-
-* **6 Answers (1 Point Each)**
-* **Screenshot (4 Points)**
+   1. You'd need to configure static routing for each network to each hop, which would be excruciatingly painful because you'd need around 25 commands per router. Multiply that by 25 routers, that's a lot of manual typing. &#x20;
 
 <br>
