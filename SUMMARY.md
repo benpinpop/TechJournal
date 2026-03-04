@@ -90,6 +90,7 @@
   * [Apache CA Install](competition/ncae/apache-ca-install.md)
   * [Apache Hardening](competition/ncae/apache-hardening.md)
 * [NCL](competition/ncl/README.md)
+  * [Log Analysis](competition/ncl/log-analysis.md)
   * [OSINT](competition/ncl/osint.md)
   * [Cryptography](competition/ncl/cryptography.md)
 
