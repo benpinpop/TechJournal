@@ -44,6 +44,7 @@
   * [Lab 7-1 Introduction to Traceroute](net-150/labs/lab-7-1-introduction-to-traceroute.md)
   * [Lab 9-1: Static Routing](net-150/labs/lab-9-1-static-routing.md)
   * [Lab 9-2: Static Routing Pt. II](net-150/labs/lab-9-2-static-routing-pt.-ii.md)
+  * [Lab 9-3: More Static Routing](net-150/labs/lab-9-3-more-static-routing.md)
 * [Assignments](net-150/assignments/README.md)
   * [Class Activity 4.1](net-150/assignments/class-activity-4.1.md)
   * [Midterm Mindmap](net-150/assignments/midterm-mindmap.md)
