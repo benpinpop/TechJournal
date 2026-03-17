@@ -102,6 +102,7 @@
   * [ChampSec (NCAE/CCDC)](personal/clubs/champsec-ncae-ccdc/README.md)
     * [Kubernetes Night Notes](personal/clubs/champsec-ncae-ccdc/kubernetes-night-notes.md)
   * [Packet and Podium](personal/clubs/packet-and-podium/README.md)
+    * [Hash Collision](personal/clubs/packet-and-podium/hash-collision.md)
     * [Topic Sheet](personal/clubs/packet-and-podium/topic-sheet.md)
     * [Event Log](personal/clubs/packet-and-podium/event-log.md)
     * [Telnet Activity](personal/clubs/packet-and-podium/telnet-activity.md)
