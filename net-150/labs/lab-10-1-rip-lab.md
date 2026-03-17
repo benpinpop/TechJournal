@@ -86,9 +86,20 @@ Using the same starter [Packet Tracer File](https://champlain.instructure.com/co
        * Next hop to designated network address
      * So R3 advertises 192.168.10.0 to the public, and allows R1 to access it through 10.10.10.2.&#x20;
 
-### Troubleshooting
+## Troubleshooting
 
 * Use the `enable` command to enter the terminal so that you don't get stuck in an infinite loading loop when you put in a command.
 * Use `config terminal` to enter router configuration and skip the router asking you about a terminal.
 * Make sure to advertise both inside and outside the network, or else RIP will not work.
 
+## Configuring Rip
+
+```
+# Pre-requisite commands if not in configuration mode or priveleged mode
+enable
+config terminal
+
+router rip
+version 2
+network <NETWORK_ADDRESS>
+```
