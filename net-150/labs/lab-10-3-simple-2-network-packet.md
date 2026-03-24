@@ -16,6 +16,8 @@ Build the following network within Packet Tracer:
 
 &#x20;
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Screenshot of successful ping requests from Foster to Skiff and Skiff to Foster</p></figcaption></figure>
+
 **Traffic Analysis in Packet Tracer**
 
 1\. Go into "Simulation Mode" in Packet Tracer (stopwatch on lower right)
@@ -31,6 +33,8 @@ Build the following network within Packet Tracer:
 6\. Review Packet Details of a HTTP Packet in the Simulation Panel
 
 **SUBMIT: Screenshot of Details (Inbound or Outbound PDU) of a HTTP packet that includes the Source/Destination MAC, Source/Destination IP Address (2 Points)**
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot of HTTP request details from Laptop to Server with MAC and IP addresses highlighted in black</p></figcaption></figure>
 
 **Practice Saving Router config**
 
@@ -50,8 +54,20 @@ Build the following network within Packet Tracer:
 
 &#x20;
 
-## **Add Tech Journal Link:**&#x20;
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot of saved IP addresses on interface Fa0/0 after restart on Router0</p></figcaption></figure>
 
-* Document the use of "Simulation Mode"
-* Document how to save configurations on routers
-* Enter useful Packet Tracer Tips/Tricks you pick up
+## How to use Simulation Mode
+
+Click Simulation Mode on the bottom left to switch.
+
+Use the Show All/None buttons and filter buttons at the bottom to filter out irrelevant packets. From there, you use the play and fast-forward buttons to speed up packets across the network. \
+\
+Click on a Packet to view its details, including specific OSI layer information.&#x20;
+
+## Saving Configuration on Routers
+
+* Go to Router > Config > Settings
+* NVMRAM > Save
+* Restart
+* Click the Fast Forward Button on the bottom left to speed up the process of rebooting
+

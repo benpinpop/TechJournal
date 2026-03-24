@@ -10,7 +10,7 @@
    * Do not connect the computers to the switch yet. (will embed graphic)
    * ![](https://champlain.instructure.com/courses/2616866/files/390785739/download?wrap=1)
 3. Hold the mouse over each computer to see the configuration. Gather information about the devices and answer the following questions
-   * ![](../../.gitbook/assets/image.png)
+   * ![](<../../.gitbook/assets/image (3).png>)
      * **Screenshot of PC0 configuration**
    * What is the MAC address of the ethernet adapter on PC0?
      * 0001.6493.0DC1
@@ -19,7 +19,7 @@
    * Hold the mouse over the switch to see the configuration.
      *
 
-         <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+         <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
    * Are there IP addresses assigned?
      * **There are no IP addresses assigned.**&#x20;
 4. Click on PC0 - Desktop Tab
@@ -27,7 +27,7 @@
    * Type arp  –a to  see the arp table and review to see if there are any entries
      *
 
-         <figure><img src="../../.gitbook/assets/image (2).png" alt="" width="345"><figcaption></figcaption></figure>
+         <figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="345"><figcaption></figcaption></figure>
 
          There are no entries.&#x20;
 5. Assign IP addresses to the computers (use 4 addresses on the same network : 10.10.10.X) What does it mean for PCs to be "on the same network"?
@@ -49,7 +49,7 @@
    * Review the table format for Mac Address and Port
      *
 
-         <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+         <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
          There are no MAC addresses inside the switch configuration.&#x20;
 7. Use Ethernet cables to connect the computers to the switch.
