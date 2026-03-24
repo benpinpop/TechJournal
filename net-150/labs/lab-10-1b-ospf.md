@@ -36,27 +36,76 @@ Using the same starter file from the "Static Route" lab, we will now configure t
 3. Repeat Step 2 for R1 and R3
    * **Make sure to update the network statements to specify the correct networks for those routers!**
 4. Use the "show ip ospf neighbor" command in administrator mode to check OSPF neighbors (devices directly connected to). **Post Screenshot for each Router**
+   1.
+
+       <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Screenshot of <code>show ip ospf neighbor</code> for R1 and R2 routers</p></figcaption></figure>
+
+
+
+       <figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption><p>Screenshot of <code>show ip ospf neighbor</code> for R3 router</p></figcaption></figure>
 5. If it is working, all PC's should now be able to ping one another
 
 **Inspect OSPF Routing Table**
 
 1. Go to R2, exit "config" mode, and type "show ip route ospf".  You should see only the OSPF routes in the table. **Post Screenshot**
+   1.
+
+       <figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption><p>Output of <code>show ip route ospf</code> command on R2</p></figcaption></figure>
 2. Examine each route in the routing table. The second number after the "/" in the square brackets indicates the OSPF cost.
    1. If multiple routes to a destination exist, OSPF adds only the fastest route to the routing table. If two or more routes have an equal cost, it adds all of them to the routing table in case of load balancing.
 3. **Answer:** What is the cost for each route in the table, and what is the lowest-cost network to communicate with?
+   1. 10.10.10.0: 128
+   2. 192.68.10.0: 129
+   3. 192.168.20.0: 65 - This network is the lowest cost network to communicate with.&#x20;
 4. Run the command "show ip ospf 1" (1 equals the process ID). **Post Screenshot with highlighted RID, number of areas, number of interfaces, number of LSAs, and anything else you find important.**
+   1.
+
+       <figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption><p>Marked up screenshot of <code>show ip ospf 1</code> on R2</p></figcaption></figure>
 5. Repeat 1-4 for R3 and R1.
+   1. R3
+      1. Network Cost
+         1.
 
-**SUBMISSION Summary:**
+             <figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption><p>Screenshot of <code>show ip route ospf</code> on R3</p></figcaption></figure>
 
-* **OSPF Neighbors from R1, R2, and R3 (1 point each)**
-* **Routing Table from R1, R2, and R3 (2 points each)**
-* **Route Cost and Lowest-Cost Network Answer from R1, R2, and R3 (1 point each)**
-* **Detailed OSPF configuration from R1, R2, and R3 with highlighted information (2 points each)**
 
-**Add Tech Journal Link:**
 
-* Add an entry for configuring OSPFv2 on Cisco
-* Include any troubleshooting steps you had to take
+             1. 10.10.20.0: 128
+             2. 192.168.20.0: 65 - Cheapest network
+             3. 192.168.30.0: 129
+      2. show ip ospf 1 Deliverable
+         1.
+
+             <figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption><p>Marked up screenshot of <code>show ip ospf 1</code> on R3</p></figcaption></figure>
+   2. R1
+      1. Network Cost
+         1.
+
+             <figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption><p>Screenshot of <code>show ip route ospf</code> on R1</p></figcaption></figure>
+
+
+
+             1. 192.168.10.0: 65
+             2. 192.168.30.0: 65
+             3. **Both networks are equal in terms of cost.**
+      2. show ip ospf 1 Deliverable
+         1.
+
+             <figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Marked up screenshot of <code>show ip ospf 1</code> on R1</p></figcaption></figure>
+
+## Configuring OSPF and Useful Commands
+
+```
+enable
+config terminal
+router ospf 1
+
+# Add for all networks
+network <NETWORK_ADDRESS> <WILDCARD_ADDRESS> area 0
+
+# Useful debug commands
+show ip ospf <#>
+show ip route ospf 
+```
 
 <br>
