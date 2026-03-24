@@ -48,6 +48,7 @@
   * [Lab 10-1a: RIP Lab](net-150/labs/lab-10-1a-rip-lab.md)
   * [Lab 10-1b: OSPF](net-150/labs/lab-10-1b-ospf.md)
   * [Lab 10-2: Observing ARP in Packet Tracer](net-150/labs/lab-10-2-observing-arp-in-packet-tracer.md)
+  * [Lab 10-3: Simple 2-Network Packet](net-150/labs/lab-10-3-simple-2-network-packet.md)
 * [Assignments](net-150/assignments/README.md)
   * [Class Activity 4.1](net-150/assignments/class-activity-4.1.md)
   * [Midterm Mindmap](net-150/assignments/midterm-mindmap.md)
