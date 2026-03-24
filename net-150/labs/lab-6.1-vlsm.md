@@ -1,6 +1,6 @@
 # Lab 6.1: VLSM
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Background
 
@@ -35,13 +35,13 @@ Show successful pings to:
 * Engineering Last to Sales Last&#x20;
 * HR Last to Accounting Last
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Successful pings from the indicated devices</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Successful pings from the indicated devices</p></figcaption></figure>
 
 ### Deliverable 3
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>This screenshot shows my completed packet tracer file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>This screenshot shows my completed packet tracer file</p></figcaption></figure>
 
 This lab was definitely a little difficult. I really struggled with the RIP routing, and understanding why ping wasn't working, but here are a few things that I've learned:
 
