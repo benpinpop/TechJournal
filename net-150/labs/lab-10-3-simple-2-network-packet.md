@@ -71,3 +71,9 @@ Click on a Packet to view its details, including specific OSI layer information.
 * Restart
 * Click the Fast Forward Button on the bottom left to speed up the process of rebooting
 
+## Tips and Tricks
+
+* You can Ctrl + Click on a device to place multiple at the same time.
+* Spam Esc to exit out of menus as fast as possible
+* Use the lightning icon to connect cables as fast as possible without specifying an interface.&#x20;
+* Press P to change to ping modes.
