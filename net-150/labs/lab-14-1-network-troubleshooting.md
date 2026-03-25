@@ -66,38 +66,29 @@ Foster Laptop should be able to ping Skiff Laptop - but something is wrong!
       <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Screenshot of successful pings between devices</p></figcaption></figure>
 * I definitely spent a little more time on this one, but I should've moved on quicker after realizing that it was a cable issue, and not actually a configuration issue.&#x20;
 
-**Challenge 4:** [**NET-150-Lab 14-1 Troubleshooting Challenge 4.pkt**](https://champlain.instructure.com/courses/2616866/files/390785725/download?wrap=1)[**Download NET-150-Lab 14-1 Troubleshooting Challenge 4.pkt**](https://champlain.instructure.com/courses/2616866/files/390785725/download?download_frd=1)
+**Challenge 4**
 
-PC0, PC1 should be able to ping PC2
+* I start by doing a one-hop ping, so pinging from the endpoint device to the router to try and identify the point of failure.
+* All the devices can ping each other and the intermediary router, but not the third router/hop.&#x20;
+* I made sure to check all the IP addresses and subnet masks to see if they matched to rule out a configuration issue.&#x20;
+* At this point, I knew it was likely a route issue. I checked Router2's IP configuration using `show ip route.` The only connections were static and connected, so it wasn't advertising the network via RIP.
+* I configured the networks via RIP and got successful pings:
+  *   &#x20;
 
-Pick one of the Troubleshooting Methods to start troubleshooting. &#x20;
+      <figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption><p>Screenshot of successful pings across the network</p></figcaption></figure>
+* This was likely a Follow the Path approach, and I think this worked generally well. I think the only mistakes/confusion I had in the beginning were that the PC could ping the second router, but that generally made sense. The router is still on the LAN, whereas the third router is a hop outside the main router, and because the network isn't advertised, the packet isn't forwarded.
+* I really wouldn't follow another method, as this seems to be working relatively well.&#x20;
 
-Take notes of what you try
+**Challenge 5**
 
-Solve the problem
+<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption><p>Screenshot of successful ping between Clinic PC 1 and Guest Laptop 2</p></figcaption></figure>
 
-**Submission for Challenge 4:**
-
-* **Screenshot of successful ping between PC1 and PC2 (1 Point)**
 * **Description of Troubleshooting Approach you started with and the steps your took (1 Point)**
+  * I started figuring out which devices could ping each other, and it seems that devices on the same VLAN could ping each other, but I couldn't ping Guest laptop 2, and it couldn't ping any other devices
+  * I assumed it must be a VLAN tagging issue due to the setup, so I hovered over the cable to see the number (Fa0/15) and examined the switch configuration. The VLAN was set to 1 instead of 20, meaning that it didn't have the right VLAN tag. I changed the VLAN tag, and everything was working again.
 * **Description of any issues you encountered, mistakes you made, whether another approach would have been better and/or did you combine methods (1 Point)**
-
-**Challenge 5:** [**NET-150-Lab 14-1 Troubleshooting Challenge 5.pkt**](https://champlain.instructure.com/courses/2616866/files/390785727/download?wrap=1)[**Download NET-150-Lab 14-1 Troubleshooting Challenge 5.pkt**](https://champlain.instructure.com/courses/2616866/files/390785727/download?download_frd=1)
-
-All PC's should be able to ping each other - but something is wrong!
-
-Pick one of the Troubleshooting Methods to start troubleshooting. &#x20;
-
-Take notes of what you try
-
-Solve the problem
-
-**Submission for Challenge 5:**
-
-* **Screenshot of successful ping between Clinic PC 1 and Guest Laptop 2 (1 Point)**
-* **Description of Troubleshooting Approach you started with and the steps your took (1 Point)**
-* **Description of any issues you encountered, mistakes you made, whether another approach would have been better and/or did you combine methods (1 Point)**
-
-**15 Points Total:** Remember - 10 of the 15 points are based on your descriptions.
+  * I definitely should've pinged devices twice before giving up, because I got very confused for a bit when I could ping devices across VLANs. I had already fixed it, and I wasn't sure which solution actually caused the fix.
+  * I tried to input a command into the multilayer switch with the "no encapsulation," but that didn't work because it only works on Routers.&#x20;
+  * I should have tried one solution at a time, then tested.
 
 <br>
