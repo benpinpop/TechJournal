@@ -51,6 +51,7 @@
   * [Lab 10-3: Simple 2-Network Packet](net-150/labs/lab-10-3-simple-2-network-packet.md)
   * [Lab 11-1: VLANs in Packet Tracer](net-150/labs/lab-11-1-vlans-in-packet-tracer.md)
   * [Lab 11-2: VLANs Pt. 2](net-150/labs/lab-11-2-vlans-pt.-2.md)
+  * [Lab 12-1: Building a WLA](net-150/labs/lab-12-1-building-a-wla.md)
 * [Assignments](net-150/assignments/README.md)
   * [Class Activity 4.1](net-150/assignments/class-activity-4.1.md)
   * [Midterm Mindmap](net-150/assignments/midterm-mindmap.md)

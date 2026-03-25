@@ -166,7 +166,7 @@ There are different types of backups.
 
 **Synthetic** - A mix between a fullbackup and an incremental backup.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 These backups only back up files. Another type of backup backs up an entire drive as an image. There are also different techniques for rotating backups, like GFS and the 3-2-1 backup. Many pieces of data cannot be recovered once they are lost, despite the availability of third-party recovery software.&#x20;
 

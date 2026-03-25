@@ -6,11 +6,11 @@ An organization needs to protect its goals through information security, achieve
 
 There are many security threats that can endanger the information security of an organization. Internal Threats come from inside the organization, whereas External come from the outside.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="303"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="303"><figcaption></figcaption></figure>
 
 To defend against this, organizations should use a defense-in-depth architecture, protecting their systems at every layer.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="251"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="251"><figcaption></figcaption></figure>
 
 ### Information Security Management Systems Framework (ISO 27001:2013)
 
@@ -30,7 +30,7 @@ Possession can lead to blackmail. Authenticity has to do with the genuineness of
 
 Organizations should develop a process to cover all gaps.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

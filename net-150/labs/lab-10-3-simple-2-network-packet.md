@@ -16,7 +16,7 @@ Build the following network within Packet Tracer:
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Screenshot of successful ping requests from Foster to Skiff and Skiff to Foster</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Screenshot of successful ping requests from Foster to Skiff and Skiff to Foster</p></figcaption></figure>
 
 **Traffic Analysis in Packet Tracer**
 
@@ -34,7 +34,7 @@ Build the following network within Packet Tracer:
 
 **SUBMIT: Screenshot of Details (Inbound or Outbound PDU) of a HTTP packet that includes the Source/Destination MAC, Source/Destination IP Address (2 Points)**
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot of HTTP request details from Laptop to Server with MAC and IP addresses highlighted in black</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Screenshot of HTTP request details from Laptop to Server with MAC and IP addresses highlighted in black</p></figcaption></figure>
 
 **Practice Saving Router config**
 
@@ -54,7 +54,7 @@ Build the following network within Packet Tracer:
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot of saved IP addresses on interface Fa0/0 after restart on Router0</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Screenshot of saved IP addresses on interface Fa0/0 after restart on Router0</p></figcaption></figure>
 
 ## How to use Simulation Mode
 
