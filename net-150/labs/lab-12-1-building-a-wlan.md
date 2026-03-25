@@ -1,4 +1,4 @@
-# Lab 12-1: Building a WLA
+# Lab 12-1: Building a WLAN
 
 **Lab:**
 
@@ -20,7 +20,7 @@
 1. Configure the Internet IP address according to the Addressing Table.
    1.
 
-       <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Screenshot of configured internet setup connections</p></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Screenshot of configured internet setup connections</p></figcaption></figure>
 
 **Step 2: Configure the network setup.**
 
@@ -29,7 +29,7 @@
 3. Scroll to the bottom of the page and click Save Settings.
    1.
 
-       <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Screenshot of configured DHCP server and internal network IP addresses</p></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Screenshot of configured DHCP server and internal network IP addresses</p></figcaption></figure>
 
 **Step 3: Configure wireless access and security.**
 
@@ -44,7 +44,7 @@
 6. Scroll to the bottom of the page and click Save Settings.
    1.
 
-       <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Screenshot of configured Wireless Security Settings (WPA2)</p></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Screenshot of configured Wireless Security Settings (WPA2)</p></figcaption></figure>
 
 #### **Part 2: Configure a Wireless Client**
 
