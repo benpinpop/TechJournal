@@ -19,7 +19,7 @@
    * Hold the mouse over the switch to see the configuration.
      *
 
-         <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+         <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
    * Are there IP addresses assigned?
      * **There are no IP addresses assigned.**&#x20;
 4. Click on PC0 - Desktop Tab

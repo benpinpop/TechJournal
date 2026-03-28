@@ -2,15 +2,15 @@
 
 ## Challenge 1 (File Upload XSS)
 
-![](../../.gitbook/assets/unknown.png)
+![](<../../.gitbook/assets/unknown (4).png>)
 
 Create an HTML file and save it as a .html. Ensure that you have a script in there.
 
-![](<../../.gitbook/assets/unknown (1).png>)
+![](<../../.gitbook/assets/unknown (1) (1).png>)
 
 Upload it to Gruyere, and navigate to the link.
 
-![](<../../.gitbook/assets/unknown (2).png>)
+![](<../../.gitbook/assets/unknown (2) (1).png>)
 
 You are now being attacked through an XSS attack.&#x20;
 
@@ -30,11 +30,11 @@ Sanitize input files by scanning for XSS attacks and blocking any invalid input.
 
 ## Challenge 2 (Reflected XSS)
 
-![](<../../.gitbook/assets/unknown (3).png>)
+![](<../../.gitbook/assets/unknown (3) (1).png>)
 
 Navigate to the Gruyere website and input \<script>alert(“ay yo”)\</script> as the path.
 
-![](<../../.gitbook/assets/unknown (4).png>)
+![](<../../.gitbook/assets/unknown (4) (1).png>)
 
 This is the final page that shows up after the Reflected XSS is complete.
 

@@ -34,7 +34,7 @@ Build the following network within Packet Tracer:
 
 **SUBMIT: Screenshot of Details (Inbound or Outbound PDU) of a HTTP packet that includes the Source/Destination MAC, Source/Destination IP Address (2 Points)**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Screenshot of HTTP request details from Laptop to Server with MAC and IP addresses highlighted in black</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Screenshot of HTTP request details from Laptop to Server with MAC and IP addresses highlighted in black</p></figcaption></figure>
 
 **Practice Saving Router config**
 
