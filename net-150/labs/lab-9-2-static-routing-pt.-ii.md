@@ -20,7 +20,7 @@ The class is charged with setting up a network for a small business with 2 sites
 
 Once the table is complete, build the following network within Packet Tracer (note: you'll want to use 2960 switches and "PT-Router" routers, and a Serial DTE cable to connect the routers).
 
-![Lab92\_diagram.PNG](https://champlain.instructure.com/courses/2616866/files/388238301/preview)
+<img src="https://champlain.instructure.com/courses/2616866/files/388238301/preview" alt="Lab92_diagram.PNG" height="318" width="700">
 
 Configure this network (but don't add routes yet!) using the IP ranges the class settled on from the table above.
 

@@ -2,7 +2,7 @@
 
 **Lab:** Using the completed Packet Trace file from Lab 11-1, you should have VLANs similar to our example slide:
 
-![](https://champlain.instructure.com/courses/2616866/files/390785733/download?wrap=1)
+<img src="https://champlain.instructure.com/courses/2616866/files/390785733/download?wrap=1" alt="" height="273" width="372">
 
 &#x20;
 

@@ -31,6 +31,10 @@
   * [Week 9: Chapter 14](sys-140/weekly-journals/week-9-chapter-14.md)
   * [Week 12: Chapter 18](sys-140/weekly-journals/week-12-chapter-18.md)
 
+## SYS-255
+
+* [Lab 01 - Lab Setup Tech Journal](sys-255/lab-01-lab-setup-tech-journal.md)
+
 ## NET-150
 
 * [Labs](net-150/labs/README.md)

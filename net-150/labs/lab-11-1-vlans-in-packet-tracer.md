@@ -1,6 +1,6 @@
 # Lab 11-1: VLANs in Packet Tracer
 
-![](https://champlain.instructure.com/courses/2616866/files/390785733/download?wrap=1)
+<img src="https://champlain.instructure.com/courses/2616866/files/390785733/download?wrap=1" alt="" height="273" width="372">
 
 &#x20;
 
