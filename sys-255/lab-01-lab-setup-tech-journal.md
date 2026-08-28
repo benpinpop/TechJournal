@@ -192,3 +192,13 @@ Great, you're all good to go. Now let's ping the internet and get DNS resolution
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | The lab mentioned that we shouldn’t enable DHCP, why not? Isn’t the PfSense VM capable of using DHCP?                                                                                                       |
 | I was not very familiar with the steps to set up the PfSense box, or the proper/correct subnet mask on the Windows box. There’s no guidance in the input (but I totally should have read the instructions). |
+
+## Issues and Difficulties
+
+Pinging 8.8.8.8 really only works half the time, and my DNS works even less than half the time. Traceroute shows the packets going all the way up to 10.0.17.2, and dropping either at the upstream gateway or at the gateway after that.&#x20;
+
+<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption><p>ping and tracert to 8.8.8.8 from wks01</p></figcaption></figure>
+
+I honestly have no clue anymore. I do need help with this! Two seconds later, it works perfectly fine!
+
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
