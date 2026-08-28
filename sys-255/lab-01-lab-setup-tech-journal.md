@@ -30,6 +30,42 @@
 | VyOS                   | vyos                                 | Ch@mpl@1n!26 | <p><br></p>                       |
 | Kali Linux             | champuser                            | Ch@mpl@1n!26 | <p><br></p>                       |
 
+## Terms
+
+### WAN
+
+Wide Area Network - It's wider than your local one. I've written this definition like a bajillion times in NET-150. See [SEC-110 - Week 9: Networking Basics](../sec-110/weekly-journals/week-9-networking-basics.md)
+
+### LAN
+
+Local Area Network
+
+### VirtIO vs E1000
+
+VirtIO is paravirtualized while the E1000 is emulated. Proxmox Staff recommends VirtIO over E1000; Eastman recommends E1000.&#x20;
+
+See [Proxmox Forum](https://forum.proxmox.com/threads/e1000-vs-virtio.80553/).
+
+#### Paravirtualization vs. Emulation
+
+Paravirtualization exposes specific parts of hardware to the VM, whereas emulation uses computation in its entirety. Emulation is much more portable, but at a much slower cost.
+
+See [TechTarget.com](https://www.techtarget.com/enterprise-software/opinion/Emulation-paravirtualization-and-pass-through-what-you-need-to-know-for-client-hypervisors).
+
+## Tips and Tricks
+
+### Tracert/Traceroute
+
+Tracert will show you all the network hops (see NET-150 labs). It is `tracert` on Windows and `traceroute` on Linux.
+
+### Ping
+
+This is self-explanatory; it will ping an IP address or a domain name (which it will try to resolve). On Windows, there are four packets sent if you do not specify a packet count.
+
+### nslookup (Windows and Linux)
+
+`nslookup` is a command to use DNS to identify an IP address from a domain; it can also do the reverse.
+
 ## Lab
 
 ### Step 1 - Setting up Network Devices
