@@ -35,6 +35,10 @@
 
 * [Lab 01 - Lab Setup Tech Journal](sys-255/lab-01-lab-setup-tech-journal.md)
 
+## NET-215
+
+* [Week 2 Videos](net-215/week-2-videos.md)
+
 ## NET-150
 
 * [Labs](net-150/labs/README.md)
