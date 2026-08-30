@@ -59,7 +59,7 @@ Goals:
 
        * Source: (04:7c:16:0b:f3:d7). Destination: (00:00:5e:00:01:6c)
    * **Answer Question:** What is the MAC address of  34.174.229.22?&#x20;
-     * You can't answer that question because the MAC addresses are replaced by the router as soon as they leave the network. Unless you have a subpoena or search warrant, good luck.&#x20;
+     * You can't answer that question because the MAC addresses are replaced by the router as soon as they leave the network. Unless you have a subpoena or search warrant, good luck. The only MAC address that you know is your router, which is 00:00:5e:00:01:6c.
 4. Repeat the Wireshark capture of a ping - but this time use the IP address of your neighbor's workstation (someone on the same network as you)
    * **Note: the ping may fail, but capture anyway**
 5. Inspect the results in Wireshark
