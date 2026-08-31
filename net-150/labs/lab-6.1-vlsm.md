@@ -35,9 +35,9 @@ Show successful pings to:
 * Engineering Last to Sales Last&#x20;
 * HR Last to Accounting Last
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Successful pings from the indicated devices</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Successful pings from the indicated devices</p></figcaption></figure>
 
 ### Deliverable 3
 

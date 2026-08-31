@@ -19,7 +19,7 @@
    * Hold the mouse over the switch to see the configuration.
      *
 
-         <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+         <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
    * Are there IP addresses assigned?
      * **There are no IP addresses assigned.**&#x20;
 4. Click on PC0 - Desktop Tab
@@ -27,7 +27,7 @@
    * Type arp  –a to  see the arp table and review to see if there are any entries
      *
 
-         <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="345"><figcaption></figcaption></figure>
+         <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="345"><figcaption></figcaption></figure>
 
          There are no entries.&#x20;
 5. Assign IP addresses to the computers (use 4 addresses on the same network : 10.10.10.X) What does it mean for PCs to be "on the same network"?

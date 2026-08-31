@@ -62,7 +62,7 @@ Looking at the source traffic, I do see a full 3-way handshake. This means that 
 
 <figure><img src="../../.gitbook/assets/{25925C82-1BDF-4375-AAE1-4EDABA36EA62}.png" alt=""><figcaption><p>Screenshot of three way handshake in Wireshark</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Three way handshake diagram</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Three way handshake diagram</p></figcaption></figure>
 
 We can also see this by filtering by `tcp.flags == 0x0012` which filters by the SYN ACK flags.
 

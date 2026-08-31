@@ -37,7 +37,9 @@
 
 ## NET-215
 
-* [Week 2 Videos](net-215/week-2-videos.md)
+* [Presentation Notes](net-215/presentation-notes/README.md)
+  * [Week 2 Videos](net-215/presentation-notes/week-2-videos.md)
+  * [Week 3 Videos](net-215/presentation-notes/week-3-videos.md)
 * [Labs](net-215/labs/README.md)
   * [Lab 2-1: OSI Observation Capture](net-215/labs/lab-2-1-osi-observation-capture.md)
   * [Lab 2-2: Packet Headers](net-215/labs/lab-2-2-packet-headers.md)

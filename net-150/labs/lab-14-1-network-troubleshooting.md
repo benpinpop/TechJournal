@@ -32,14 +32,14 @@ Foster Laptop should be able to ping Skiff Laptop - but something is wrong!
 * And we get a successful ping! I think this was a pretty efficient method, and there wasn't too much to look at.&#x20;
 *
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot of a successful ping from Foster to Skiff</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Screenshot of a successful ping from Foster to Skiff</p></figcaption></figure>
 
 **Challenge 2:** [**NET-150-Lab 14-1 Troubleshooting Challenge 2.pkt**](https://champlain.instructure.com/courses/2616866/files/390785737/download?wrap=1)[**Download NET-150-Lab 14-1 Troubleshooting Challenge 2.pkt**](https://champlain.instructure.com/courses/2616866/files/390785737/download?download_frd=1)
 
 * The cable connected from the Router to the Switch is red, meaning that the interface isn't configured.
 *
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot of unconfigured and powered off interface (FastEthernet0/1)</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Screenshot of unconfigured and powered off interface (FastEthernet0/1)</p></figcaption></figure>
 
 
 * We just need to configure it, and we get a good ping!
