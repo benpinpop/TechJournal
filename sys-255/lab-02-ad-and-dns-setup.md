@@ -4,6 +4,26 @@ description: Ben Polonsky
 
 # Lab 02  - AD and DNS Setup
 
+## Terms
+
+### Active Directory
+
+Essentially a central control server for a domain that can create users, policies, and rules for the computers within the domain.&#x20;
+
+### DNS
+
+Domain Name System - Translates a Domain Name into an IP address. Uses a tiered system.
+
+* Root - The "."
+* TLD - Top Level Domain
+* Authoritative - Subdomain of the TLD
+
+#### Forward and Reverse Lookup Zones
+
+Forward Lookup: Domain -> IP
+
+Reverse Lookup: IP -> Domain
+
 ## Lab
 
 ### Set up AD01 Network Configuration
