@@ -75,5 +75,65 @@
   * Network IDs and the IP of the next router in that direction
 * Direct vs. Next Hop
 
-## RIPv2
+## RIPv2 (routing information protocol)
 
+* Routers send out broadcasts/multicasts
+* Typically sends a table every 30-60 seconds
+* RIP is a Distance Vector routing protocol
+  * Preference is solely based on hops
+* Pro: Very easy to configure
+* Con:&#x20;
+  * Noisy, lot's of broadcasts, slow to covnerge
+  * does not scale to large or complex networks
+*
+
+    <figure><img src="../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+## Default Routes
+
+* Default Route of Gateway of last resort if we don't know where to go to.
+  * If destination network not found in routing table
+  * Often used in home networks, sent to the ISP to be forwarded
+* For routers to create a default route, we use
+  * `ip route 0.0.0.0 0.0.0.0. [IP OR interface]`&#x20;
+  * `ip default network [IP OR interface]`
+
+## OSPF
+
+* Link State Routing Protocols
+  * Mst scalable method for Interior Gateway Protocol (IGP)
+  * Routers figure out who their negihobrs are
+  * After initial convergence, only send Hello's (keep alives) and updates with their changes
+* Uses more advanced route selection metrics
+  * Bandwidth
+* Open Shortest Path First (OSPF)
+  * Link State Advertisements
+  * Send hellos every ten seconds, any changes are sent via Link State Advertisements (LSAs)
+  * Essentially recursively updating.
+* Example of OSPF LSA
+  * LS Age: How old the change is
+  * Link State ID
+  * Router Advertising it
+  * Network
+  * and Metric
+
+## Dynamic Routing Intro
+
+* Routing protocols to build routing tables
+* Types of Routing Protocols
+  * Interior Gateway Protocols (IGP)
+    * Inside an orgnaizations network
+    * Contains info about internal infrastructure prefixes
+    * Used IGPs:
+      * RIPv2
+      * OSPF
+  * Exterior Gateway Protocols (EGPs)
+    * Connects ISPs typically
+    * Used EGPs:
+      * BGP (Border Gateway Protocol)
+* Why do you need an EGP?
+  * IGPs don't scale well compare to EGPs.&#x20;
+  * EGPs also limit networks and have additional rules and settings
+  * &#x20;
