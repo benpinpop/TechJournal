@@ -64,3 +64,16 @@
   * Subnet Mask
   * Next Hop
   * Interface
+* May also have
+  * Distance
+  * Preference (More than one route, which one is better?)
+* It doesn't need to know the path, just the next router.
+* Switching Tables - CAN tables
+  * MAC addresses, rather than IP addresses
+  * MAC addresses and ports
+* Routing Tables
+  * Network IDs and the IP of the next router in that direction
+* Direct vs. Next Hop
+
+## RIPv2
+
