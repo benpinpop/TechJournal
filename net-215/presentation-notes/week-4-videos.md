@@ -136,4 +136,3 @@
 * Why do you need an EGP?
   * IGPs don't scale well compare to EGPs.&#x20;
   * EGPs also limit networks and have additional rules and settings
-  * &#x20;

@@ -45,6 +45,8 @@
 * [Labs](net-215/labs/README.md)
   * [Lab 2-1: OSI Observation Capture](net-215/labs/lab-2-1-osi-observation-capture.md)
   * [Lab 2-2: Packet Headers](net-215/labs/lab-2-2-packet-headers.md)
+  * [Lab 3-1: ARP Observation Lab](net-215/labs/lab-3-1-arp-observation-lab.md)
+  * [Lab 3-2: MAC OUI and MAC Spoofing Lab](net-215/labs/lab-3-2-mac-oui-and-mac-spoofing-lab.md)
 
 ## NET-150
 
