@@ -12,7 +12,7 @@
 
 This lab requires the use of a **Kali Linux workstation**. If you do not have one set up, refer to [Lab 1-0: Import VMs](https://champlain.instructure.com/courses/2682538/modules/items/128802855) for instructions on how to do so.
 
-#### **0. Please answer the questions. A screen shot or snip is not an answer to the question. It is a picture.**&#x20;
+
 
 **I. Capture and Analyze an ARP Request**
 
@@ -25,10 +25,24 @@ This lab requires the use of a **Kali Linux workstation**. If you do not have on
 6. Stop Capture
 7. Analyze Capture for ARP packets:
    * **Answer:** Find the ARP broadcast that your computer used to find the Instructor's MAC address. What is the source MAC address? What is the destination MAC address? (Hint: Data Link Layer Header)
+     * I used my own Proxmox for this, using a neighboring Kali with SNAT on 172.16.1.0/16.
+     *
+
+         <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Screenshot of Kali Linux Wireshark of an ARP request to 172.16.1.4 from 172.16.1.3.</p></figcaption></figure>
+     * The source MAC address is bc:24:11:7e:7f:ec, and the destination MAC address is 00:00:00:00:00:00
    * **Answer:** Find the ARP reply from the instructor's workstation back to your computer. What is the source MAC address? What is the destination MAC address? (Hint: Data Link Layer Header)
+     *
+
+         <figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption><p>Screenshot of Kali Linux Wireshark of the ARP reply from 172.16.1.4 to 172.16.1.3</p></figcaption></figure>
+     * The source MAC address is bc:24:11:2b:41:97 and the destination MAC address is bc:24:11:7e:7f:ec.
    * **Answer:** What is the message sent in the ARP Request?  What is the message sent in the ARP Reply?
+     * The message sent in the ARP request asks who has 172.16.1.4, and tells the device to tell 172.16.1.3 at its MAC address. The message sent in the ARP reply identifies the MAC address of 172.16.1.4.&#x20;
 8. Flush the arp cache again with "ip neigh flush all"
 9. Repeat the capture and ping- but this time ping Google's Public DNS server - 8.8.8.8
    * **Answer:** What do you see in the ARP request and reply? Can you explain what happened? If there is no arp request/reply try again, but start Wireshark before flushing the cache.&#x20;
+     *
 
-**Submit: Answers to questions**
+         <figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption><p>Screenshot of Wireshark ARP request to 172.16.1.1</p></figcaption></figure>
+
+
+     * I see that the ARP request is made to 172.16.1.1, which is our default gateway. The reason it is doing this is that ARP is a Layer 2 protocol, which only works within the network. We cannot send a packet outside our network using a MAC address (besides the default gateway). Whenever a packet needs to go outside the network, Layer 3 is used, so we need to send our packet to the default gateway for further routing.&#x20;
