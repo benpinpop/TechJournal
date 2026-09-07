@@ -24,11 +24,14 @@ The OUI:
 Lab Steps
 
 1. From the Kali VM lookup your Default Gateway (ip route show)  and make a note of it.
+   1. 172.16.1.1
 2. Start a Wireshark capture
 3. Ping the Default Gateway
 4. Stop the capture
 5. Analyze the capture and use the OUI lookup tool at [httpsLinks to an external site.](https://www.wireshark.org/tools/oui-lookup.html)[://Links to an external site.](https://www.wireshark.org/tools/oui-lookup.html)[www.wireshark.org/tools/oui-lookup.htmlLinks to an external site.](https://www.wireshark.org/tools/oui-lookup.html) to submit the following:
    * **SUBMIT: The OUI number and vendor info for the Default Gateway**
+     * **de:b9:f2**
+     * It doesn't show up! Proxmox is weird and doesn't use regular vendor OUIs for it's routers I guess...
 
 **Part 2: MAC Spoofing (2 Points)**
 
@@ -50,7 +53,7 @@ Lab Steps:
    * Find an OUI for an older gaming console (Atari, Intellivision, Commodore, Sega...)
    * Can use the Find feature in your browser
 6. Change your mac address on the Kali box to:
-   * The OUI for a game console from step 5
+   * 00:00:36
    * and the serial # de:fa:ce
    * using the command
      * sudo macchanger -m xx:xx:xx:de:fa:ce eth0
@@ -61,3 +64,6 @@ Lab Steps:
 9. Ping 8.8.8.8 (in linux the default is to ping forever. You can hit Ctrl-C in the terminal to stop the pings.)
 10. Stop capture
 11. **SUBMIT: Screenshot of ping request that shows your spoofed MAC address in the Ethernet header**
+    1.
+
+        <figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption><p>Screenshot of Kali Linux Wireshark and Terminal. In Wireshark, the MAC address shows the MAC address OUI of Atari. In the Terminal, you can see the commands used to change the MAC address, flush the DNS, and ping the default gateway.</p></figcaption></figure>
