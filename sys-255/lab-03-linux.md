@@ -55,6 +55,11 @@ ssh ben@dhcp01-benp
 | \~           | Variable for the home directory of the user                                                          |
 | history      | Shows your command history!                                                                          |
 | head         | Shows the top lines of an output. Use -n to specify how many lines.                                  |
+| mkdir        | Create a directory                                                                                   |
+| mv           | Move a file into another directory or rename a file                                                  |
+| cp           | Copy a file to a new directory, or just copy a file                                                  |
+| touch        | Create an empty file                                                                                 |
+| nano         | Better than vi. My #fav text editor.                                                                 |
 
 {% hint style="info" %}
 See[master-linux-terminal-sheet.md](../personal/reference-essentials/linux/master-linux-terminal-sheet.md "mention") for a fuller list of commands.
