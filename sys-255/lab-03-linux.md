@@ -62,5 +62,5 @@ ssh ben@dhcp01-benp
 | nano         | Better than vi. My #fav text editor.                                                                 |
 
 {% hint style="info" %}
-See[master-linux-terminal-sheet.md](../personal/reference-essentials/linux/master-linux-terminal-sheet.md "mention") for a fuller list of commands.
+See [master-linux-terminal-sheet.md](../personal/reference-essentials/linux/master-linux-terminal-sheet.md "mention") for a fuller list of commands.
 {% endhint %}
