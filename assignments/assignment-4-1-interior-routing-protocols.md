@@ -9,8 +9,11 @@ Do some research into RIPv2 and review the protocol header information to answer
 RIPv2 Fields
 
 1. The job of any routing protocol is to provide a mechanism for exchanging information about routes so routers can keep their routing tables up-to-date. Describe in your own words (a few sentences and/or detailed bullet points) the mechanism RIP uses so that routers in a network can build their routing table. **(2 Points)**
+   1.
 2. Describe in your own words, how RIP uses the Route Distance Metric (**1 Point)**
+   1.
 3. Describe in your own words (a few sentences or detailed bullet points) the limitations of RIP on a larger network **(2 Points)**
+   1.
 
 &#x20;
 
@@ -19,7 +22,9 @@ RIPv2 Fields
 OSPF is a very popular interior routing protocol and is widely used in larger enterprises.
 
 1. Describe in your own words (a few sentences and/or detailed bullet points) the mechanism OSPF uses so that routers in a network can build their routing table and how it differs from RIP v2. **(2 Points)**
+   1.
 2. Describe in your own words, how OSPF uses the "Cost" Metric (**1 Point)**
+   1.
 
 &#x20;
 
