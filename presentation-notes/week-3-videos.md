@@ -54,7 +54,7 @@
 * 32 bits across&#x20;
   *
 
-      <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 
   * Hardware Address Type - 16 bits
@@ -66,7 +66,7 @@
   * Opcode is 16-bit field which indicates a request or response
   *
 
-      <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
