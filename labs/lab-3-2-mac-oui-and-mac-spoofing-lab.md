@@ -66,4 +66,4 @@ Lab Steps:
 11. **SUBMIT: Screenshot of ping request that shows your spoofed MAC address in the Ethernet header**
     1.
 
-        <figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption><p>Screenshot of Kali Linux Wireshark and Terminal. In Wireshark, the MAC address shows the MAC address OUI of Atari. In the Terminal, you can see the commands used to change the MAC address, flush the DNS, and ping the default gateway.</p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption><p>Screenshot of Kali Linux Wireshark and Terminal. In Wireshark, the MAC address shows the MAC address OUI of Atari. In the Terminal, you can see the commands used to change the MAC address, flush the DNS, and ping the default gateway.</p></figcaption></figure>

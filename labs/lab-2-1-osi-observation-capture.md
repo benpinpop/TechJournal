@@ -31,13 +31,13 @@ Goals:
     * Ethernet II, Src: 04:7c:16:0b:f3:d7. Dst: 00:00:5e:00:01:6c
     *
 
-        <figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption><p>Screenshot of ICMP request packet</p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption><p>Screenshot of ICMP request packet</p></figcaption></figure>
 * Click on the ICMP Ping Response packet
   * **Record:** What are the source and destination MAC addresses
     * Ethernet II, Src: 4c:6d:58:1a:df:3c. Dst: 04:7c:16:0b:f3:d7
     *
 
-        <figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption><p>Screenshot of ICMP reply packet details</p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption><p>Screenshot of ICMP reply packet details</p></figcaption></figure>
 * **Answer Question:** What is the MAC address of your workstation's NIC? What is the MAC address of the Default Gateway Router interface (NIC)?
   * My MAC address is: 04:7c:16:0b:f3:d7
   * The MAC for the Default Gateway is:
@@ -54,7 +54,7 @@ Goals:
      * **Record:** What are the source and destination MAC addresses
        *
 
-           <figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption><p>Screenshot of the ICMP Request Packet</p></figcaption></figure>
+           <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption><p>Screenshot of the ICMP Request Packet</p></figcaption></figure>
 
 
        * Source: (04:7c:16:0b:f3:d7). Destination: (00:00:5e:00:01:6c)
@@ -66,7 +66,7 @@ Goals:
    * Click on the ICMP Ping Request packet
      *   **Record:** What are the source and destination MAC addresses
 
-         <figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption><p>Screenshot of the request packet and MAC address details in Wireshark</p></figcaption></figure>
+         <figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption><p>Screenshot of the request packet and MAC address details in Wireshark</p></figcaption></figure>
 
 
 
@@ -86,20 +86,20 @@ Goals:
    * **Identify the field in the Ethernet header that indicates the next layer's header**
      *
 
-         <figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption><p>Screenshot of the last field in the Ethernet header indicating the next layer.</p></figcaption></figure>
+         <figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption><p>Screenshot of the last field in the Ethernet header indicating the next layer.</p></figcaption></figure>
 
          The field that indicates the next layer's header is the Type field.&#x20;
    * **Identify the field in the IPv4 header that indicates the next layer's header**
      *
 
-         <figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption><p>Screenshot of the last IPv4 field indiciating the next layer</p></figcaption></figure>
+         <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption><p>Screenshot of the last IPv4 field indiciating the next layer</p></figcaption></figure>
 
 
      * The field that indicates the next layer's header is the Destination Address field.&#x20;
    * **Look at the very first 6 bytes in the packet- what is the purpose/role of those bytes?**
      *
 
-         <figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+         <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
 
      * The purpose of the first six bytes is to indicate the destination MAC address of the packet.

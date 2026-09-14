@@ -39,15 +39,19 @@
 
 ## NET-215
 
-* [Presentation Notes](net-215/presentation-notes/README.md)
-  * [Week 2 Videos](net-215/presentation-notes/week-2-videos.md)
-  * [Week 3 Videos](net-215/presentation-notes/week-3-videos.md)
-  * [Week 4 Videos](net-215/presentation-notes/week-4-videos.md)
-* [Labs](net-215/labs/README.md)
-  * [Lab 2-1: OSI Observation Capture](net-215/labs/lab-2-1-osi-observation-capture.md)
-  * [Lab 2-2: Packet Headers](net-215/labs/lab-2-2-packet-headers.md)
-  * [Lab 3-1: ARP Observation Lab](net-215/labs/lab-3-1-arp-observation-lab.md)
-  * [Lab 3-2: MAC OUI and MAC Spoofing Lab](net-215/labs/lab-3-2-mac-oui-and-mac-spoofing-lab.md)
+***
+
+* [Assignments](assignments/README.md)
+  * [Assignment 4-1: Interior Routing Protocols](assignments/assignment-4-1-interior-routing-protocols.md)
+* [Labs](labs/README.md)
+  * [Lab 2-1: OSI Observation Capture](labs/lab-2-1-osi-observation-capture.md)
+  * [Lab 2-2: Packet Headers](labs/lab-2-2-packet-headers.md)
+  * [Lab 3-1: ARP Observation Lab](labs/lab-3-1-arp-observation-lab.md)
+  * [Lab 3-2: MAC OUI and MAC Spoofing Lab](labs/lab-3-2-mac-oui-and-mac-spoofing-lab.md)
+* [Presentation Notes](presentation-notes/README.md)
+  * [Week 2 Videos](presentation-notes/week-2-videos.md)
+  * [Week 3 Videos](presentation-notes/week-3-videos.md)
+  * [Week 4 Videos](presentation-notes/week-4-videos.md)
 
 ## NET-150
 

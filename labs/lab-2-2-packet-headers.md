@@ -14,7 +14,7 @@ Instructions:
   * **14 bytes are in the Ethernet Header:** 84 17 ef eb d1 bb 28 3a 4d 84 e1 7f 08 00
   *
 
-      <figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption><p>Screenshot of the Ethernet II header in Wireshark</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption><p>Screenshot of the Ethernet II header in Wireshark</p></figcaption></figure>
 * **Which bytes represent the destination MAC? Which bytes represent the source MAC?**
   * 6 bytes represent the destination MAC: 84 17 ef eb d1 bb
   * 6 bytes represent the source MAC: 28 3a 4d 84 e1 7f
@@ -27,7 +27,7 @@ Instructions:
     0010 12 dc 95 a6
 *
 
-    <figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption><p>Screenshot of the IPv4 Header details</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption><p>Screenshot of the IPv4 Header details</p></figcaption></figure>
 
 5\. **Answer the following question: Why is the packet's Ethernet header the first bytes we see in the packet? (1 point)**
 
@@ -41,7 +41,7 @@ Instructions:
   * **In the Ethernet header, there are 14 bytes, and 18 bytes in padding.**
   *
 
-      <figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption><p>Screenshot of the ARP response packet</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption><p>Screenshot of the ARP response packet</p></figcaption></figure>
 * **Why is there a footer/padding included in the response packet? (Hint: Check out the 'ARP Request' section at** [**https://www.practicalnetworking.net/series/arp/traditional-arp/Links to an external site.**](https://www.practicalnetworking.net/series/arp/traditional-arp/)**!)**
   * **This is because the minimum frame size of an Ethernet frame is 64 bytes. It needs the extra 18 bytes to make it to that minimum. (Yay!)**
 

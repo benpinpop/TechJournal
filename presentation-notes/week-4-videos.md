@@ -14,7 +14,7 @@
 * IP header
   *
 
-      <figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 
   * IP flags
@@ -40,13 +40,13 @@
   * Datagram tiems out if TTL count expires
 *
 
-    <figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
 
 * Type field
   *
 
-      <figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 
   * Mostly 8s and 0s.
@@ -87,7 +87,7 @@
   * does not scale to large or complex networks
 *
 
-    <figure><img src="../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
