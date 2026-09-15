@@ -33,7 +33,7 @@ OSPF is a very popular interior routing protocol and is widely used in larger en
 
 [https://www.geeksforgeeks.org/computer-networks/open-shortest-path-first-ospf-protocol-fundamentals/](https://www.geeksforgeeks.org/computer-networks/open-shortest-path-first-ospf-protocol-fundamentals/)
 
-
+{% embed url="https://www.networkacademy.io/ccna/ospf/what-is-ospf" %}
 
 The next questions are based on the following router network.  Each interface includes a network address and cost
 
