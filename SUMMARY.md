@@ -36,6 +36,7 @@
 * [Lab 01 - Lab Setup Tech Journal](sys-255/lab-01-lab-setup-tech-journal.md)
 * [Lab 02  - AD and DNS Setup](sys-255/lab-02-ad-and-dns-setup.md)
 * [Lab 03 - Linux](sys-255/lab-03-linux.md)
+* [Lab 04 - DHCP Setup](sys-255/lab-04-dhcp-setup.md)
 
 ## NET-215
 
