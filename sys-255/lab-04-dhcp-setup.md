@@ -95,10 +95,21 @@ ipconfig /renew  # Creates a new DHCP lease; you get your IP address back
 * Request (3) - The client tells the DHCP server it is accepting the request for the IP address
 * ACK (5) - The DHCP server confirms that the client has that IP address now.
 
+
+
+<table><thead><tr><th width="99.79998779296875">Value</th><th width="219.7999267578125">Message Type</th><th width="130.7999267578125">Reference</th><th>Notes</th></tr></thead><tbody><tr><td>1</td><td>DHCPDISCOVER</td><td>[<a href="https://www.iana.org/go/rfc2132">RFC2132</a>]</td><td>Looks for a DHCP server</td></tr><tr><td>2</td><td>DHCPOFFER</td><td>[<a href="https://www.iana.org/go/rfc2132">RFC2132</a>]</td><td>DHCP server offers a an IP address</td></tr><tr><td>3</td><td>DHCPREQUEST</td><td>[<a href="https://www.iana.org/go/rfc2132">RFC2132</a>]</td><td>Client makes official request to DHCP server to confirm an offer</td></tr><tr><td>4</td><td>DHCPDECLINE</td><td>[<a href="https://www.iana.org/go/rfc2132">RFC2132</a>]</td><td>Network error packet, address might already be in use, might be more than one DHCP server</td></tr><tr><td>5</td><td>DHCPACK</td><td>[<a href="https://www.iana.org/go/rfc2132">RFC2132</a>]</td><td>Acknowledgement, final step in handshake</td></tr><tr><td>6</td><td>DHCPNAK</td><td>[<a href="https://www.iana.org/go/rfc2132">RFC2132</a>]</td><td>Opposite of an ACK, from DHCP server to Client, rejecting a request</td></tr><tr><td>7</td><td>DHCPRELEASE</td><td>[<a href="https://www.iana.org/go/rfc2132">RFC2132</a>]</td><td>Client releases the lease/IP</td></tr><tr><td>8</td><td>DHCPINFORM</td><td>[<a href="https://www.iana.org/go/rfc2132">RFC2132</a>]</td><td>Get options (configuration)</td></tr><tr><td>9</td><td>DHCPFORCERENEW</td><td>[<a href="https://www.iana.org/go/rfc3203">RFC3203</a>]</td><td>Force</td></tr></tbody></table>
+
+Source: [https://www.iana.org/assignments/bootp-dhcp-parameters](https://www.iana.org/assignments/bootp-dhcp-parameters)
+
 ### Some DHCP Flags
 
 * Message Type
   * 1 - Boot Request - From the client to DHCP
   * 2 - Boot Reply - From DHCP to the client
 * Transaction ID - Identifies the packet conversation, starts with 0x and is 8 lowercase alphanumeric characters.
+* Options
+  * Carries configuration and network settings to clients
+    * Packets have a list of requests; the server responds with a list of options
+
+
 
