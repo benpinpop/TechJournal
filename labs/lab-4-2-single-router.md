@@ -68,4 +68,4 @@ Should look like:
 12. **SUBMIT: A screenshot of the "show ip route" command with the current routes.**
     1.
 
-        <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

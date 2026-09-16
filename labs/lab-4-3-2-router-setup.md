@@ -77,7 +77,7 @@ Identify the need for routing protocols and their role in internetworks with mul
    * **SUBMIT (1 Point): Record the networks showing up in Router 0's routing table (either via text or screenshot)**
      *
 
-         <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>This screenshot shows the Router 0 show ip route configuration</p></figcaption></figure>
+         <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>This screenshot shows the Router 0 show ip route configuration</p></figcaption></figure>
 5. Go to Router1 CLI
    * From the **Router#** type **show ip route**
    * **SUBMIT (1 Point): Record the networks showing up in Router 1's routing table (either via text or screenshot)**
