@@ -37,6 +37,7 @@
 * [Lab 02  - AD and DNS Setup](sys-255/lab-02-ad-and-dns-setup.md)
 * [Lab 03 - Linux](sys-255/lab-03-linux.md)
 * [Lab 04 - DHCP Setup](sys-255/lab-04-dhcp-setup.md)
+* [Lab 04a - Linux File Permissions](sys-255/lab-04a-linux-file-permissions.md)
 * [Lab 04b - Securing SSH on DHCP01](sys-255/lab-04b-securing-ssh-on-dhcp01.md)
 
 ## NET-215
