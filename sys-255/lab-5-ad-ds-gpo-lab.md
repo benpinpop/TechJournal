@@ -34,4 +34,33 @@ Go to the _Server Manager_ and go to the top right to _Tools > Group Policy Mana
 
 <img src="../.gitbook/assets/unknown (97).png" alt="" height="245" width="474">
 
-Go to the Security Filter, and add custom-desktop, and remove Authenticated Users. Add _Domain Computers_ to the Security Filter list. Go to Delegation (on the top) > Advanced... Click on Domain Computers, and &#x20;
+Go to the Security Filter, and add custom-desktop, and remove Authenticated Users. Add _Domain Computers_ to the Security Filter list. Go to Delegation (on the top) > Advanced... Click on Domain Computers, and click _Deny_ on the _Apply Group Policy_ setting.
+
+### Editing a Group Policy
+
+Right-click on the new Group Policy and click _Edit..._ From there, we can apply any settings we want to disable the Recycling Bin.
+
+<img src="../.gitbook/assets/unknown.png" alt="Screenshot of the directories to enable the setting that removes the recycling bin icon from the desktop" height="315" width="624">
+
+If we want to disable the last logon, all we need to do is disable the setting using a group policy:
+
+<img src="../.gitbook/assets/unknown (1).png" alt="" height="332" width="624">
+
+### Commands to know
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+gpresult /r 
+gpupdate /force
+gpresult /scope computer /r
+```
+{% endcode %}
+
+## Guide for Assessment Prep
+
+Snapshot back to base and rebuild it from scratch! Also, try to rebuild the environment in my own Proxmox Server, and time how long it takes to rebuild everything. YAYYYYY.
+
+### Network Map
+
+<figure><img src="../.gitbook/assets/Untitled Diagram.drawio.png" alt=""><figcaption><p>Network Diagram!!!!</p></figcaption></figure>
+

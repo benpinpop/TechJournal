@@ -24,9 +24,9 @@ Our first step is to run a Quick Scan Plus on 3 IP addresses. So we put in a ran
 
 Our results are listed below:
 
-<figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption><p>Screenshot of Quick Scan Results (Part 1)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (2).png" alt=""><figcaption><p>Screenshot of Quick Scan Results (Part 1)</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/unknown (1).png" alt=""><figcaption><p>Screenshot of Quick Scan Results (Part 2)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (1) (1).png" alt=""><figcaption><p>Screenshot of Quick Scan Results (Part 2)</p></figcaption></figure>
 
 
 
@@ -42,7 +42,7 @@ Now, we move onto the netcat portion of the lab. On another kali machine, we ope
 
 Now, we run an Intense Scan with a UDP profile, and leave it running for 15 minutes. The results are at the bottom.
 
-<figure><img src="../../.gitbook/assets/unknown (2).png" alt=""><figcaption><p>Screenshot of Intense UDP Scan</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption><p>Screenshot of Intense UDP Scan</p></figcaption></figure>
 
 **Deliverable 3**
 

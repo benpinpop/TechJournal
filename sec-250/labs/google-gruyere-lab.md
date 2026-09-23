@@ -6,11 +6,11 @@
 
 Create an HTML file and save it as a .html. Ensure that you have a script in there.
 
-![](<../../.gitbook/assets/unknown (1) (1).png>)
+![](<../../.gitbook/assets/unknown (1) (1) (1).png>)
 
 Upload it to Gruyere, and navigate to the link.
 
-![](<../../.gitbook/assets/unknown (2) (1).png>)
+![](<../../.gitbook/assets/unknown (2) (1) (1).png>)
 
 You are now being attacked through an XSS attack.&#x20;
 
