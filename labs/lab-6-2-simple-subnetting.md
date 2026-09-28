@@ -41,7 +41,22 @@ To complete that objective, you will need to do the following:
    * From the **Router#** prompt, type "show ip route"
    * The route table should show that 30.0.0.0/25 is subnetted
    * **Submit screenshot of correct command output** (2 Points)
+     *
+
+         <figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+
+         This screenshot shows the IP Route Configuration in Router 1 in Packet Tracer.&#x20;
 2. Go to PC8-Desktop-IP Configuration
    * **Submit Screenshot of correct configuration** (2 Points)
+     *
+
+         <figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+
+         This screenshot shows the IP Configuration for PC8 in Packet Tracer
 3. Ping PC1 from PC8
    * **Submit Screenshot of successful ping** (1 Point)
+     *
+
+         <figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+
+&#x20;                  This screenshot shows the successful ping from PC1 to PC8 in Packet Tracer.
