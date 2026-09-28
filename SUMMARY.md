@@ -47,6 +47,7 @@
 
 * [Assignments](assignments/README.md)
   * [Assignment 4-1: Interior Routing Protocols](assignments/assignment-4-1-interior-routing-protocols.md)
+  * [Assignment 6-1: Subnetting an Enterprise Network](assignments/assignment-6-1-subnetting-an-enterprise-network.md)
 * [Labs](labs/README.md)
   * [Lab 2-1: OSI Observation Capture](labs/lab-2-1-osi-observation-capture.md)
   * [Lab 2-2: Packet Headers](labs/lab-2-2-packet-headers.md)
@@ -54,6 +55,7 @@
   * [Lab 3-2: MAC OUI and MAC Spoofing Lab](labs/lab-3-2-mac-oui-and-mac-spoofing-lab.md)
   * [Lab 4-2: Single Router](labs/lab-4-2-single-router.md)
   * [Lab 4-3: 2 Router Setup](labs/lab-4-3-2-router-setup.md)
+  * [Lab 6-2: Simple Subnetting](labs/lab-6-2-simple-subnetting.md)
 * [Presentation Notes](presentation-notes/README.md)
   * [Week 2 Videos](presentation-notes/week-2-videos.md)
   * [Week 3 Videos](presentation-notes/week-3-videos.md)
