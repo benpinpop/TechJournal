@@ -41,6 +41,11 @@
 * [Lab 04b - Securing SSH on DHCP01](sys-255/lab-04b-securing-ssh-on-dhcp01.md)
 * [Lab 5 - AD DS GPO Lab](sys-255/lab-5-ad-ds-gpo-lab.md)
 
+## SEC-260
+
+* [Labs](sec-260/labs/README.md)
+  * [CA Prep](sec-260/labs/ca-prep.md)
+
 ## NET-215
 
 ***
