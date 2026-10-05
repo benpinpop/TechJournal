@@ -9,8 +9,8 @@
 
 **LAB Steps**
 
-1. Open Lab 7-1 Starter file: [NET-215-NAT-Packet-Tracer-Starter-with nat interfaces.pkt](https://champlain.instructure.com/courses/2682538/files/407188447/download?wrap=1)[Download NET-215-NAT-Packet-Tracer-Starter-with nat interfaces.pkt](https://champlain.instructure.com/courses/2682538/files/407188447/download?download_frd=1)
-2.  Examine he network configuration. Skiff 100 and Foster 202 networks are on private networks (192.168.1.0/24 and 192.168.3.0/24 respectively)
+1. Open Lab 7-1 Starter file.
+2.  Examine the network configuration. Skiff 100 and Foster 202 networks are on private networks (192.168.1.0/24 and 192.168.3.0/24, respectively)
 
     <img src="https://champlain.instructure.com/courses/2682538/files/407188123/download?wrap=1" alt="" height="335" width="664">
 3. We want to configure NAT on the Cyber.Local Router so that all Skiff and Foster pc's can "share" the public Champlain address 216.93.144.10 on the Internet
@@ -56,18 +56,27 @@ If PAT is working, you should be able to ping the Burlington Telecom server from
    * Click the colored Info block
    * This is the packet as it leaves the PC - make note of the SRC IP (and layer 2 MAC addresses)
    * **Take Screenshot of OSI Model Layers**
+   *
+
+       <figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption><p>This screenshot shows the OSI Model Layers for the ICMP Packet at Skiff 3 in Packet Tracer</p></figcaption></figure>
 7. Next, find the packet that says&#x20;
    * Last Device: Skiff 100 Switch
    * At Device: Cyber.Local Router
    * Click the colored Info block
    * This is the packet as crosses the router- make note of the SRC IP (and layer 2 MAC addresses) **changes** between inbound and outbound - **this is NAT at Work!**
    * **Take Screenshot of OSI Model Layers showing In and Out Layers**
+   *
+
+       <figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption><p>This screenshot shows the OSI Model Layers for the ICMP Packet at Cyber.Local Router in Packet Tracer.</p></figcaption></figure>
 8. Finally, Capture/Forward until the ping response goes all the way back to Skiff 3. Find the packet that says&#x20;
    * Last Device: Burlington Telecom
    * At Device: Cyber.Local Router
    * Click the colored Info block
    * This is the packet as it returns to Cyber.Local - make note of the **DST** IP header as it crosses ti router. This is **this is NAT response translationat Work!**
    * **Take Screenshot of OSI Model Layers showing In and Out Layers**
+     *
+
+         <figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p>This screenshot shows the OSI Model Layers for the returning ICMP Packet at Cyber.Local Router in Packet Tracer.</p></figcaption></figure>
 
 **II. Show NAT Translation Table (2 Points)**
 
@@ -91,3 +100,6 @@ icmp 50.0.0.1:2        192.168.0.7:2      20.0.0.2:2         20.0.0.2:2
 ```
 
 6\. **Take Screenshot of sh ip nat translations output**
+
+<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption><p>This screenshot shows the Network Address Translation Table for the Cyber.Local router.</p></figcaption></figure>
+
