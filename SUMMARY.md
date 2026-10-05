@@ -61,6 +61,7 @@
   * [Lab 4-2: Single Router](labs/lab-4-2-single-router.md)
   * [Lab 4-3: 2 Router Setup](labs/lab-4-3-2-router-setup.md)
   * [Lab 6-2: Simple Subnetting](labs/lab-6-2-simple-subnetting.md)
+  * [Lab 7-1: NAT in Packet Tracer](labs/lab-7-1-nat-in-packet-tracer.md)
 * [Presentation Notes](presentation-notes/README.md)
   * [Week 2 Videos](presentation-notes/week-2-videos.md)
   * [Week 3 Videos](presentation-notes/week-3-videos.md)
