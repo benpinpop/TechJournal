@@ -34,5 +34,28 @@ FS01-BEN: 10.0.5.8
 Not able to join your domain? You are probably cabled to WAN, and not your SYS-255 LAN! Cable your VM!
 {% endhint %}
 
+### Installing RSAT onto AD02
 
+* Go to Server Manager
+* Go to the top right of Server Manager > Manage > Add Roles and Features
+* Select the following options
+  *
+
+      <img src="../.gitbook/assets/unknown (98).png" alt="Add Roles and Features Wizard > Features Menu" height="381" width="432">
+
+
+* Install.
+
+### Add DNS for FS01 and add FS01 to Server List
+
+* Go to Server Manager > DNS. Click on AD02 and open up the DNS Manager.
+* Add FS01-BEN to the DNS Manager using IP address `10.0.5.8`.&#x20;
+* Make sure there is a PTR record as well.
+* Go back to the top right of Server Manager > Manage. Click on Add Servers and add FS01-BEN
+  *
+
+      <img src="../.gitbook/assets/unknown (99).png" alt="Example of what your menu should look like." height="283" width="624">
+
+
+* Refresh the Server List.
 
