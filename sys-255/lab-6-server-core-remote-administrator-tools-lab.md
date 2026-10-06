@@ -112,3 +112,15 @@ Make sure to test by logging in on WKS01 as Alice and Bob.
 {% endhint %}
 
 ### Adding a network map via Group Policy Object
+
+* Go to Tools and click on Group Policy Management Console or right-click on the AD02 server and click on Group Policy Management Console
+* Add a new GPO to SYS255 > Users and name it Sales-Drive
+* Right click on the GPO and click _Edit..._
+* Open User Configuration > Preferences > Windows Settings > Drive Maps
+* Right-click on Drive Maps and create New > Mapped Drive.
+  * Location: \\\FS01-BEN\Sales
+  * Label as: Sales-User-Drive
+  * Select _Show This Drive_
+* Apply your changes.
+* Go into common and select Item-based targeting, and open up the targeting menu.
+* Add a new item that specifies that the security group must be a part of the Sales-Drive security group.
