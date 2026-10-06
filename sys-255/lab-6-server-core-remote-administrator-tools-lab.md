@@ -59,3 +59,56 @@ Not able to join your domain? You are probably cabled to WAN, and not your SYS-2
 
 * Refresh the Server List.
 
+### Setting up our OUs again
+
+* Go back to Server Manager and go to AD02, or click on Tools > Active Directory Users and Computers.
+* Create new Organizational Units. At the end, it should look like this:
+
+<img src="../.gitbook/assets/unknown (100).png" alt="Example of Organizational Unit Structure" height="320" width="406">
+
+* Create a new Global security group (Sales-Users) in the Groups OU.
+* Create two users (Bob and Alice) as standard domain users, in the new SYS255\Users OU
+* Add Alice to the Sales-Users group
+
+### Add FSRM to FS01-BEN
+
+* Go to FS01 in Server Manager. Right-click and click Add Server Roles and Features.
+  *
+
+      <img src="../.gitbook/assets/unknown (101).png" alt="" height="402" width="431">
+* Install.&#x20;
+
+### Modifying Firewall Rules on FS01
+
+Input this command into your terminal on FS01 after installing the Firewall Server Resource Manager.
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+netsh advfirewall firewall set rule group=”Remote File Server Resource Manager Management” new enable=yes
+```
+{% endcode %}
+
+{% hint style="warning" %}
+If you encounter an error when changing the firewall rules, try reinstalling the File Server Resource Manager
+{% endhint %}
+
+### Adding File Shares via AD02
+
+* Go back to your Server Manager. Click on the File and Storage Services
+
+<figure><img src="../.gitbook/assets/image (141).png" alt="" width="176"><figcaption><p>What your Server Manager Tab should look like</p></figcaption></figure>
+
+* Create a new share.
+  *
+
+      <img src="../.gitbook/assets/unknown (102).png" alt="What your Shares should look like" height="351" width="624">
+* Choose the SMB Quick Share option and select FS01.
+* Name the Share Sales.
+* Click on the Sales Share, right click, and select _Properties_.
+* Remove access for Everyone and change the principal to Sales-Users group that we made before. Now only the Sales-Users will have access to this file share.
+
+{% hint style="info" %}
+Make sure to test by logging in on WKS01 as Alice and Bob.
+{% endhint %}
+
+### Adding a network map via Group Policy Object
