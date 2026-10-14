@@ -41,6 +41,7 @@
 * [Lab 04b - Securing SSH on DHCP01](sys-255/lab-04b-securing-ssh-on-dhcp01.md)
 * [Lab 5 - AD DS GPO Lab](sys-255/lab-5-ad-ds-gpo-lab.md)
 * [Lab 6 - Server Core / Remote Administrator Tools Lab](sys-255/lab-6-server-core-remote-administrator-tools-lab.md)
+* [Lab 7 - Apache Lab](sys-255/lab-7-apache-lab.md)
 
 ## SEC-260
 
