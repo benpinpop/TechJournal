@@ -69,6 +69,7 @@
   * [Week 2 Videos](presentation-notes/week-2-videos.md)
   * [Week 3 Videos](presentation-notes/week-3-videos.md)
   * [Week 4 Videos](presentation-notes/week-4-videos.md)
+  * [TCP Week Videos](presentation-notes/tcp-week-videos.md)
 
 ## NET-150
 
