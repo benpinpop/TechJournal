@@ -67,7 +67,7 @@
   * [Lab 8-1: IPv6 in Packet Tracer](labs/lab-8-1-ipv6-in-packet-tracer.md)
   * [Lab 9-1: TCP Handshake and Connection Termination](labs/lab-9-1-tcp-handshake-and-connection-termination.md)
   * [Lab 10-1 UDP Transport](labs/lab-10-1-udp-transport.md)
-  * [Lab 11-2](labs/lab-11-2.md)
+  * [Lab 11-2: DNS and nslookup](labs/lab-11-2-dns-and-nslookup.md)
 * [Presentation Notes](presentation-notes/README.md)
   * [Week 2 Videos](presentation-notes/week-2-videos.md)
   * [Week 3 Videos](presentation-notes/week-3-videos.md)
