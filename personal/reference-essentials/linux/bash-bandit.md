@@ -117,7 +117,7 @@ cat data.txt | grep "millionth"
 Password: VR1ljMayciFxbnUokuQmJFw6QC9VKtub
 {% endhint %}
 
-## Level 8
+## Level 8 (Up to date)
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -145,28 +145,134 @@ strings data.txt –bytes=10
 ```
 {% endcode %}
 
-
-
-### Password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+{% hint style="success" %}
+Password:&#x20;
+{% endhint %}
 
 ## Level 10
 
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
 The file is in base64, to decode, use base -d data.txt
+```
+{% endcode %}
 
-### Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+{% hint style="success" %}
+Password:&#x20;
+{% endhint %}
 
 ## Level 11
 
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
 A-Z goes from N-Z and A-M, same for lowercase.
+```
+{% endcode %}
 
-### Password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+{% hint style="success" %}
+Password:&#x20;
+{% endhint %}
 
 ## Level 12
 
-xxd - Provides a hexadecimal dump of a file. Use -r to reverse the hex dump. Use | head to read the top part of the file.&#x20;
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+xxd - Provides a hexadecimal dump of a file. Use -r to reverse the hex dump. Use | head to read the top part of the file. 
+The first few hex numbers indicate the zip type of the file. See https://en.wikipedia.org/wiki/List_of_file_signatures to compare the first bytes and find the type of file compression the file is. Rename the file to ensure it decrypts properly. 
+```
+{% endcode %}
 
-The first few hex numbers indicate the zip type of the file. See [https://en.wikipedia.org/wiki/List\_of\_file\_signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) to compare the first bytes and find the type of file compression the file is. Rename the file to ensure it decrypts properly.&#x20;
+{% hint style="success" %}
 
-### Password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+{% endhint %}
+
+## Level 13
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+    
+```
+{% endcode %}
+
+{% hint style="success" %}
+
+{% endhint %}
+
+## Level 14
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+```
+{% endcode %}
+
+{% hint style="success" %}
+
+{% endhint %}
+
+## Level 15
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+```
+{% endcode %}
+
+{% hint style="success" %}
+
+{% endhint %}
+
+## Level 16
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+```
+{% endcode %}
+
+{% hint style="success" %}
+
+{% endhint %}
+
+## Level 17
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+```
+{% endcode %}
+
+{% hint style="success" %}
+
+{% endhint %}
+
+## Level 18
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+```
+{% endcode %}
+
+{% hint style="success" %}
+
+{% endhint %}
+
+## Level 19
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+```
+{% endcode %}
+
+{% hint style="success" %}
+
+{% endhint %}
+
+## Level 20
+
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+```
+{% endcode %}
+
+{% hint style="success" %}
+
+{% endhint %}
