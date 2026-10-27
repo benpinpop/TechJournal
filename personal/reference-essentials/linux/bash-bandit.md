@@ -2,95 +2,150 @@
 
 ## Level 0 Bandit0
 
-Ls
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+ls # Outputs our directory
+cat readme # Outputs the readme file
+```
+{% endcode %}
 
-Cat readme
-
-### Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+{% hint style="success" %}
+Password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+{% endhint %}
 
 ## Level 1 Bandit1
 
-Pwd
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+pwd # Prints the working directory
+cat /home/bandit1/* # To print all files OR
+cat ./- # Treats it as a file path instead of an option
+```
+{% endcode %}
 
-Cat bandit1/\* or cat ./-
-
-### Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+{% hint style="success" %}
+Password: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+{% endhint %}
 
 ## Level 2 Bandit2
 
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
 ls
+cat -- '--spaces in this filename--' # the -- tells us that there are no more options to read.
+```
+{% endcode %}
 
-cat -- '--spaces in this filename--'
-
-### Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+{% hint style="success" %}
+Password: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+{% endhint %}
 
 ## Level 3 Bandit3
 
-Ls
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+ls
+cd inhere
+ls -a (hidden file)
+cat ...Hiding-From-You
+```
+{% endcode %}
 
-Cd inhere
-
-Ls -a (hidden file)
-
-cat -- "...Hiding-From-You"
-
-### Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+{% hint style="success" %}
+Password: xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+{% endhint %}
 
 ## Level 4
 
-Ls
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+ls
+cd inhere
+file ./*
+cat -- -file07
+```
+{% endcode %}
 
-Cd inhere
-
-Cat – “file07”
-
-### Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+{% hint style="success" %}
+Password: 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+{% endhint %}
 
 ## Level 5
 
-Ls -R -a - l | grep 1033
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+human-readable
+1033 bytes in size
+not executable
 
 find . -type f -size 1033c -print
+```
+{% endcode %}
 
-### Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+{% hint style="success" %}
+Password: pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+{% endhint %}
 
 ## Level 6
 
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
 find . -type f -user bandit7 -group bandit6 -size 33c
 
 Redirect errors: 2>/dev/null
 
-Final Command: find . -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+Final Command: find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
 
 ./var/lib/dpkg/info/bandit7.password
 
-Cat ./var/lib/dpkg/info/bandit7.password
+cat ./var/lib/dpkg/info/bandit7.password
+```
+{% endcode %}
 
-### Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+{% hint style="success" %}
+Password: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
+{% endhint %}
 
 ## Level 7
 
+<pre data-title="" data-overflow="wrap" data-line-numbers data-expandable="true"><code><strong>The password for the next level is stored in the file data.txt next to the word millionth
+</strong>
 cat data.txt | grep "millionth"
+</code></pre>
 
-### Password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+{% hint style="success" %}
+Password: VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+{% endhint %}
 
 ## Level 8
 
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
+
 sort data.txt | uniq -u
-
 sort — ensures duplicate lines are adjacent (required for uniq to work correctly)
-
-uniq -u — prints only lines that appear exactly once<br>
+uniq -u — prints only lines that appear exactly once
 
 To see counts, use uniq -c
+```
+{% endcode %}
 
-### Password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+{% hint style="success" %}
+Password: EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+{% endhint %}
 
 ## Level 9
 
+{% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
+```
 Use the strings command on the data.txt file to read it
 
 strings data.txt –bytes=10
+```
+{% endcode %}
+
+
 
 ### Password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
