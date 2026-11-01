@@ -42,6 +42,7 @@
 * [Lab 5 - AD DS GPO Lab](sys-255/lab-5-ad-ds-gpo-lab.md)
 * [Lab 6 - Server Core / Remote Administrator Tools Lab](sys-255/lab-6-server-core-remote-administrator-tools-lab.md)
 * [Lab 7 - Apache Lab](sys-255/lab-7-apache-lab.md)
+* [CMS Assessment Rehearsal](sys-255/cms-assessment-rehearsal.md)
 
 ## SEC-260
 
