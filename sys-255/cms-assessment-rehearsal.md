@@ -34,16 +34,53 @@ sudo usermod -aG wheel ben
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```bash
 dnf update -y
-dnf install httpd php php-cli php-json php-mbstring php-xml php-gd wget -y
+dnf install -y httpd unzip curl
+dnf install -y php php-cli php-gd php-mbstring php-xml php-json php-curl php-zip
 
-systemctl start httpd
-systemctl enable httpd
+systemctl enable --now httpd
+firewall-cmd --permanent --add-service=http
+firewall-cmd --reload
 
-sudo chown -R apache:apache /var/www/html/
-sudo chmod -R 755 /var/www/html/
+cd /tmp
+curl -L -o bludit.zip https://www.bludit.com/releases/bludit-latest.zip
+unzip bludit.zip
+mv bludit-* /var/www/html/bludit
 
-# Installing HTMLy
-cd /
-wget https://github.com/danpros/htmly/archive/refs/tags/v3.1.1.zip
+chown -R apache:apache /var/www/html/bludit
+find /var/www/html/bludit -type d -exec chmod 755 {} \;
+find /var/www/html/bludit -type f -exec chmod 644 {} \;
+
+# IF SE Linux is enabled
+getenforce
+sestatus
+
+dnf install -y policycoreutils-python-utils
+semanage fcontext -a -t httpd_sys_rw_content_t "/var/www/html/bludit/bl-content(/.*)?"
+restorecon -Rv /var/www/html/bludit/bl-content
 ```
 {% endcode %}
+
+## Configure bludit.conf
+
+```apache
+<VirtualHost *:80>
+    ServerName example.com
+    DocumentRoot /var/www/html/bludit
+
+    <Directory /var/www/html/bludit>
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog /var/log/httpd/bludit_error.log
+    CustomLog /var/log/httpd/bludit_access.log combined
+</VirtualHost>
+```
+
+## Final Commands
+
+```bash
+httpd -t
+systemctl restart httpd
+systemctl restart php-fpm 2>/dev/null || true
+```
