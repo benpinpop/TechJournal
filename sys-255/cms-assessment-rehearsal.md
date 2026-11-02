@@ -84,3 +84,14 @@ httpd -t
 systemctl restart httpd
 systemctl restart php-fpm 2>/dev/null || true
 ```
+
+## Script
+
+```bash
+curl -fsSL https://pastebin.com/raw/deuzyJf6 | tr -d '\r' | sudo bash
+
+# AI Citation - I used Claude to provide instruction steps for installing Bludit. 
+# After completing the process by hand and seeing what worked and what didn't,
+# I had Claude craft a script, which I checked for errors (it did have one!)
+# After that, I tested it in on a base rocky image, which worked successfully.
+```
