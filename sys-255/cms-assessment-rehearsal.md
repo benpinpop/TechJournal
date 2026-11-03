@@ -1,5 +1,15 @@
 # CMS Assessment Rehearsal
 
+## Current Network
+
+```
+FW02-BEN: 10.0.5.2
+AD02-BEN: 10.0.5.6
+DHCP02-BEN 10.0.5.33
+WKS02-BEN: DHCP
+FS01-BEN: 10.0.5.8
+```
+
 ## Deliverables
 
 * Change hostname (web01-ben) - `nmtui`
