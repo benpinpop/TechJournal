@@ -64,6 +64,8 @@ find /var/www/html/bludit -type f -exec chmod 644 {} \;
 getenforce
 sestatus
 
+setenforce 0
+
 dnf install -y policycoreutils-python-utils
 semanage fcontext -a -t httpd_sys_rw_content_t "/var/www/html/bludit/bl-content(/.*)?"
 restorecon -Rv /var/www/html/bludit/bl-content
