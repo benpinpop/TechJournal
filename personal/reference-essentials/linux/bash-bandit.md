@@ -220,75 +220,98 @@ Password: aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
+The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
+
+nc 127.0.0.1 30000
+Copy and paste the password.
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
 {% endhint %}
 
 ## Level 15
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
+The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL/TLS encryption.
+
+openssl s_client -connect localhost:30001
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
 {% endhint %}
 
 ## Level 16
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
+nmap -p 31000-32000 127.0.0.1
+nmap -p 31046,31518,31691,31790,31960 -sV 127.0.0.1
+
+openssl s_client -connect localhost:31790 -quiet
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: Provided via SSH key.
 {% endhint %}
 
 ## Level 17
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
+There are 2 files in the homedirectory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new
+
+diff passwords.new passwords.old
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: OQxXZjELndr90zuhOTDYBEomI0SZITXI
 {% endhint %}
 
 ## Level 18
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
+The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
+
+ssh -p 2220 bandit18@bandit.labs.overthewire.org ls
+ssh -p 2220 bandit18@bandit.labs.overthewire.org cat readme
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI
 {% endhint %}
 
 ## Level 19
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
+To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.
+
+./bandit20-do cat /etc/bandit_pass/bandit20
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: 4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA
 {% endhint %}
 
 ## Level 20
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
+echo '4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA' | nc -lp 9999 &
+./suconnect 9999
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY
 {% endhint %}
