@@ -140,25 +140,26 @@ Password: EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
 Use the strings command on the data.txt file to read it
-
-strings data.txt –bytes=10
+strings data.txt –bytes=12
 ```
 {% endcode %}
 
 {% hint style="success" %}
-Password:&#x20;
+Password: B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
 {% endhint %}
 
 ## Level 10
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
-The file is in base64, to decode, use base -d data.txt
+The file is in base64, to decode, use 
+
+base64 -d data.txt
 ```
 {% endcode %}
 
 {% hint style="success" %}
-Password:&#x20;
+Password: pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
 {% endhint %}
 
 ## Level 11
@@ -172,7 +173,7 @@ A-Z goes from N-Z and A-M, same for lowercase.
 {% endcode %}
 
 {% hint style="success" %}
-Password:&#x20;
+Password: GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
 {% endhint %}
 
 ## Level 12
@@ -180,24 +181,39 @@ Password:&#x20;
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
 xxd - Provides a hexadecimal dump of a file. Use -r to reverse the hex dump. Use | head to read the top part of the file. 
-The first few hex numbers indicate the zip type of the file. See https://en.wikipedia.org/wiki/List_of_file_signatures to compare the first bytes and find the type of file compression the file is. Rename the file to ensure it decrypts properly. 
+
+The first few hex numbers indicate the zip type of the file. See https://en.wikipedia.org/wiki/List_of_file_signatures to compare the first bytes and find the type of file compression the file is. Rename the file to ensure it decrypts properly.
+
+1f8b 0808 corresponds to gz (gzip)
+425a 6839 corresponds to .bz (bzip2) files
+6461 7461 362e 6269 6e00 is a TAR file
+
+gzip -d
+bzip2 - d
+tar -xf file
+
+Use XXD to read the head of the file, and then decode accordingly.
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
 {% endhint %}
 
 ## Level 13
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
-    
+The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14
+
+Copy sshkey.private to your machine, chmod 600 the permissions
+
+ssh -p 2220 -i sshkey.private bandit14@bandit.labs.overthewire.org
 ```
 {% endcode %}
 
 {% hint style="success" %}
-
+Password: aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
 {% endhint %}
 
 ## Level 14
