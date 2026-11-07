@@ -12,7 +12,7 @@ PermitRootLogin no
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="340"><figcaption><p>Screenshot of a portion of the <code>sshd_config</code> file in <code>/etc/ssh/</code></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="340"><figcaption><p>Screenshot of a portion of the <code>sshd_config</code> file in <code>/etc/ssh/</code></p></figcaption></figure>
 
 {% hint style="info" %}
 Make sure to delete the file in `sshd_config.d/01-permitrootlogin.conf` if it exists. It will override your configuration, and your lab won't work.

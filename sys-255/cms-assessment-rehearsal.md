@@ -39,7 +39,7 @@ sudo usermod -aG wheel ben
 ```
 {% endcode %}
 
-## Installing HTTPD
+## Installing HTTPD and Bludit
 
 {% code title="" overflow="wrap" lineNumbers="true" expandable="true" %}
 ```bash
@@ -107,3 +107,4 @@ curl -fsSL https://pastebin.com/raw/deuzyJf6 | tr -d '\r' | sudo bash
 # I had Claude craft a script, which I checked for errors (it did have one!)
 # After that, I tested it in on a base rocky image, which worked successfully.
 ```
+
