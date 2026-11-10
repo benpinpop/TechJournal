@@ -30,7 +30,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (166).png" alt=""><figcaption><p>This screenshot shows a ping from PC0 to PC1 in Packet Tracer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (166) (1).png" alt=""><figcaption><p>This screenshot shows a ping from PC0 to PC1 in Packet Tracer</p></figcaption></figure>
 
 **Lab Steps: Part 2**
 
