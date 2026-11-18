@@ -71,6 +71,7 @@
   * [Lab 11-2: DNS and nslookup](labs/lab-11-2-dns-and-nslookup.md)
   * [Lab 11-3: VLANs in Packet Tracer](labs/lab-11-3-vlans-in-packet-tracer.md)
   * [Lab 12-1 HTTP Capture Class](labs/lab-12-1-http-capture-class.md)
+  * [Lab 12-2b: Telnet](labs/lab-12-2b-telnet.md)
   * [Lab 14-1: HTTP Response Codes](labs/lab-14-1-http-response-codes.md)
 * [Presentation Notes](presentation-notes/README.md)
   * [Week 2 Videos](presentation-notes/week-2-videos.md)
