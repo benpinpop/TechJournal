@@ -73,6 +73,7 @@
   * [Lab 12-1 HTTP Capture Class](labs/lab-12-1-http-capture-class.md)
   * [Lab 12-2b: Telnet](labs/lab-12-2b-telnet.md)
   * [Lab 14-1: HTTP Response Codes](labs/lab-14-1-http-response-codes.md)
+  * [Lab 14-2: GET and POST Class Activity](labs/lab-14-2-get-and-post-class-activity.md)
 * [Presentation Notes](presentation-notes/README.md)
   * [Week 2 Videos](presentation-notes/week-2-videos.md)
   * [Week 3 Videos](presentation-notes/week-3-videos.md)
